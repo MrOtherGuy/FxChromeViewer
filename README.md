@@ -6,10 +6,10 @@ Creates a textual snapshot of the Firefox browser UI
 
 1. Enable browser chrome debugging in developer tools advanced section
 2. Open Scratchpad
-3. If #1 was done correctly you should see a menu option "Environement" - select Browser as the environment.
+3. If #1 was done correctly you should see a menu option "Environment" - select Browser as the environment.
 4. Run chromeViewer code
 
-You should see a new tab opening with snaphot view of the UI structure
+You should see a new tab opening with snapshot view of the UI structure
 
 # Parameters
 
