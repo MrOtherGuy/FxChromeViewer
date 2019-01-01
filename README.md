@@ -2,7 +2,7 @@
 
 Creates a textual snapshot of the Firefox browser UI
 
-![Document tree](https://github.com/MrOtherGuy/FxChromeViewer/blob/master/chromeViewer.png)
+![](https://github.com/MrOtherGuy/FxChromeViewer/blob/master/FxChromeViewer.png "Document tree")
 
 
 # Instructions
