@@ -2,6 +2,9 @@
 
 Creates a textual snapshot of the Firefox browser UI
 
+![Document tree](https://github.com/MrOtherGuy/FxChromeViewer/blob/master/chromeViewer.png)
+
+
 # Instructions
 
 1. Enable browser chrome debugging in developer tools advanced section
@@ -21,3 +24,5 @@ The function takes two parameters
 # WARNING
 
 This code will be run in the browser environment and could basically do absolutely anything including destroying your profile. Just so you know.
+
+To be safe you should probably not run this in your normal profile
