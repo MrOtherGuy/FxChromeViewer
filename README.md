@@ -21,7 +21,9 @@ You should see a new tab opening with snapshot view of the UI structure
 The function takes three parameters as an object:
 
  `type` - String, one of: `"JSON"` `"HTML"` `"STRING"`
+ 
  `parent` - String which is the outermost element ( default: "#navigator-toolbox") see [document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+ 
  `depth` - Number (default `6`) which means the depth how deep the structure is traversed from the provided parent
 
 # WARNING
