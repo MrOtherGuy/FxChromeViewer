@@ -5,12 +5,13 @@
   this.output = { value: "" };
   this.loadBlob = function(mimetype){
     let blob = URL.createObjectURL(new Blob([this.output.value],{type:mimetype}));
+		
     gBrowser.loadOneTab(blob,TAB_LOAD_ARGS);
    setTimeout(()=>(URL.revokeObjectURL(blob)),1000);
   };
   this.formatLine = (n) => ("\n"+("| ").repeat(n)+"|_");
   this.stringifyHTML = function(node){
-    let s = `<span style="color:#20B2AA">${node.tagName}</span><span style="color:#CD5C5C">${(node.id ? "#" + node.id : "")}</span><span style="color:#808000">${(node.classList[0] ? "." + node.classList[0] : "")}${(node.classList[1] ? "." + node.classList[1] : "")}</span>`;
+    let s = `<span>${node.tagName}</span><span>${(node.id ? "#" + node.id : "")}</span><span>${(node.classList[0] ? "." + node.classList[0] : "")}${(node.classList[1] ? "." + node.classList[1] : "")}</span>`;
     return s
   };
   this.stringify = function(node){
@@ -21,6 +22,7 @@
   this.parseNode = function(parent,toString){
     this.state.depth++;
     for(let node of parent.children){
+      this.output.value += "<br>";
       this.output.value += this.formatLine(this.state.depth) + toString(node);
       this.state.depth < MAX_DEPTH && this.parseNode(node,toString);
     }
@@ -32,7 +34,7 @@
       this.output.value += `\n${("  ").repeat(this.state.depth)}${this.stringifyJSON(node)}:{`;
       this.state.depth < MAX_DEPTH && this.JSONencode(node);
       this.output.value += "}";
-      this.output.value += node.nextSibling === null ? "\n" : ",";
+      this.output.value += node.nextElementSibling === null ? "\n" : ",";
     }
     this.state.depth--
   };
@@ -47,12 +49,13 @@
     return this.output.value;
   };
   this.createHTML = function(selector){
-    this.output.value = "<html><body style='background:rgb(50,50,50)'><pre><code>";
+    this.output.value = "<html><head><style>span{color:#20B2AA}span+span{color:#CD5C5C}span+span+span{color:#808000}br{display:none}</style></head><body style='background:rgb(50,50,50)'><pre><code>";
     let node = document.querySelector(selector);
     if(!node){
       return null
     }
     this.output.value += this.stringifyHTML(node);
+    this.state.depth--;
     this.parseNode(node,this.stringifyHTML);
     this.output.value += "</code></pre></body></html>";
     this.loadBlob("text/html;charset=utf-8");
@@ -67,7 +70,6 @@
     this.JSONencode(node);
     this.output.value += "}\n}";
     this.loadBlob("application/json;charset=utf-8");
-    
   }
   this.create = function(properties){
     if(properties.depth){
@@ -87,13 +89,13 @@
       default:
         return null
     }
-    return output
+    return this.output.value
   }
 })())
 .create(
   {
-    type:"JSON",
+    type:"HTML",
     parent:"#navigator-toolbox",
-    depth:6
+    depth:4
   }
 );
