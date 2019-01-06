@@ -94,8 +94,8 @@
 })())
 .create(
   {
-    type:"HTML",
+    type:"JSON",
     parent:"#navigator-toolbox",
-    depth:4
+    depth:6
   }
-);
+)
