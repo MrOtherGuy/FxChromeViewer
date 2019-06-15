@@ -1,0 +1,465 @@
+{
+"toolbox#navigator-toolbox":{
+  "vbox#titlebar":{
+    "toolbar#toolbar-menubar.browser-toolbar.chromeclass-menubar":{
+      "toolbaritem#menubar-items":{
+        "menubar#main-menubar":{
+          "menu#file-menu":{
+            "label.menubar-text":{},
+            "menupopup#menu_FilePopup":{}
+},
+          "menu#edit-menu":{
+            "label.menubar-text":{},
+            "menupopup#menu_EditPopup":{}
+},
+          "menu#view-menu":{
+            "label.menubar-text":{},
+            "menupopup#menu_viewPopup":{}
+},
+          "menu#history-menu":{
+            "label.menubar-text":{},
+            "menupopup#goPopup":{}
+},
+          "menu#bookmarksMenu":{
+            "label.menubar-text":{},
+            "menupopup#bookmarksMenuPopup":{}
+},
+          "menu#tools-menu":{
+            "label.menubar-text":{},
+            "menupopup#menu_ToolsPopup":{}
+},
+          "menu#helpMenu":{
+            "label.menubar-text":{},
+            "menupopup#menu_HelpPopup":{}
+}
+}
+},
+      "spacer":{},
+      "hbox.titlebar-buttonbox-container":{
+        "hbox.titlebar-buttonbox.titlebar-color":{
+          "toolbarbutton.titlebar-button.titlebar-min":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton.titlebar-button.titlebar-max":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton.titlebar-button.titlebar-close":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+}
+}
+}
+},
+    "toolbar#TabsToolbar.browser-toolbar.titlebar-color":{
+      "hbox.titlebar-spacer":{},
+      "hbox.toolbar-items":{
+        "hbox#TabsToolbar-customization-target.customization-target":{
+          "tabs#tabbrowser-tabs":{
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{},
+            "tab.tabbrowser-tab":{}
+},
+          "toolbarbutton#alltabs-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+            "stack.toolbarbutton-badge-stack":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+}
+}
+},
+      "hbox.titlebar-spacer":{},
+      "button.accessibility-indicator":{
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "hbox.private-browsing-indicator":{},
+      "hbox.titlebar-buttonbox-container":{
+        "hbox.titlebar-buttonbox.titlebar-color":{
+          "toolbarbutton.titlebar-button.titlebar-min":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton.titlebar-button.titlebar-max":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton.titlebar-button.titlebar-close":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+}
+}
+}
+}
+},
+  "toolbar#nav-bar.browser-toolbar":{
+    "toolbartabstop":{},
+    "hbox#nav-bar-customization-target.customization-target":{
+      "toolbarbutton#sidebar-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "observes":{},
+        "observes":{},
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbaritem#urlbar-container.chromeclass-location":{
+        "toolbartabstop":{},
+        "textbox#urlbar":{
+          "box#identity-box.verifiedIdentity":{
+            "image#identity-icon":{},
+            "image#sharing-icon":{},
+            "box#tracking-protection-icon-box":{},
+            "box#blocked-permissions-container":{},
+            "box#notification-popup-box":{},
+            "image#connection-icon":{},
+            "image#extension-icon":{},
+            "image#remote-control-icon":{},
+            "hbox#identity-icon-labels":{}
+},
+          "box#urlbar-display-box":{
+            "label#switchtab.urlbar-display.urlbar-display-switchtab":{},
+            "label#extension.urlbar-display.urlbar-display-extension":{}
+},
+          "hbox#page-action-buttons":{
+            "toolbartabstop":{},
+            "hbox#contextual-feature-recommendation":{},
+            "hbox#userContext-icons":{},
+            "image#reader-mode-button.urlbar-icon.urlbar-page-action":{},
+            "toolbarbutton#urlbar-zoom-button":{},
+            "box#pageActionSeparator.urlbar-page-action":{},
+            "image#pageActionButton.urlbar-icon.urlbar-page-action":{},
+            "hbox#pocket-button-box.urlbar-icon-wrapper.urlbar-page-action":{},
+            "hbox#star-button-box.urlbar-icon-wrapper.urlbar-page-action":{}
+}
+},
+        "toolbartabstop":{}
+},
+      "toolbaritem#stop-reload-button.chromeclass-toolbar-additional":{
+        "toolbarbutton#reload-button.toolbarbutton-1":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-text":{},
+          "label.toolbarbutton-multiline-text":{},
+          "box.toolbarbutton-animatable-box":{
+            "image.toolbarbutton-animatable-image":{}
+},
+          "dropmarker.toolbarbutton-menu-dropmarker":{
+            "image.dropmarker-icon":{}
+}
+},
+        "toolbarbutton#stop-button.toolbarbutton-1":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-text":{},
+          "label.toolbarbutton-multiline-text":{},
+          "box.toolbarbutton-animatable-box":{
+            "image.toolbarbutton-animatable-image":{}
+},
+          "dropmarker.toolbarbutton-menu-dropmarker":{
+            "image.dropmarker-icon":{}
+}
+}
+},
+      "toolbarbutton#back-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "menupopup":{},
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#forward-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "menupopup":{},
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarspring#customizableui-special-spring2.chromeclass-toolbar-additional":{},
+      "toolbarbutton#new-tab-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "menupopup#newtab-popup.new-tab-popup":{},
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#developer-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#umatrix_raymondhill_net-browser-action.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "stack.toolbarbutton-badge-stack":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-badge":{}
+},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#apt_example_com-browser-action.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "stack.toolbarbutton-badge-stack":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-badge":{}
+},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#downloads-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "stack.toolbarbutton-badge-stack":{
+          "stack#downloads-indicator-anchor":{
+            "box#downloads-indicator-icon":{},
+            "stack#downloads-indicator-progress-outer":{}
+},
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-badge":{}
+},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#qrier_example_com-browser-action.toolbarbutton-1.chromeclass-toolbar-additional":{
+        "stack.toolbarbutton-badge-stack":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-badge":{}
+},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+}
+},
+    "toolbarbutton#nav-bar-overflow-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+      "image.toolbarbutton-icon":{},
+      "label.toolbarbutton-text":{},
+      "label.toolbarbutton-multiline-text":{},
+      "box.toolbarbutton-animatable-box":{
+        "image.toolbarbutton-animatable-image":{}
+},
+      "dropmarker.toolbarbutton-menu-dropmarker":{
+        "image.dropmarker-icon":{}
+}
+},
+    "toolbaritem#PanelUI-button":{
+      "toolbarbutton#PanelUI-menu-button.toolbarbutton-1":{
+        "stack.toolbarbutton-badge-stack":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-badge":{}
+},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+}
+},
+    "hbox#window-controls":{
+      "toolbarbutton#minimize-button":{
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#restore-button":{
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#close-button":{
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+}
+},
+    "box#library-animatable-box.toolbarbutton-animatable-box":{
+      "image.toolbarbutton-animatable-image":{}
+}
+},
+  "toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories":{
+    "toolbartabstop":{},
+    "toolbaritem#personal-bookmarks":{
+      "toolbarbutton#bookmarks-toolbar-placeholder.bookmark-item":{
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "toolbarbutton#bookmarks-toolbar-button.toolbarbutton-1":{
+        "image.toolbarbutton-icon":{},
+        "label.toolbarbutton-text":{},
+        "label.toolbarbutton-multiline-text":{},
+        "dropmarker.toolbarbutton-menu-dropmarker":{
+          "image.dropmarker-icon":{}
+}
+},
+      "hbox#PlacesToolbar":{
+        "hbox":{
+          "hbox#PlacesToolbarDropIndicatorHolder":{
+            "image#PlacesToolbarDropIndicator":{}
+},
+          "scrollbox#PlacesToolbarItems":{},
+          "toolbarbutton#PlacesChevron.toolbarbutton-1":{
+            "menupopup#PlacesChevronPopup":{},
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+}
+}
+}
+},
+    "toolbarbutton#preferences-button.toolbarbutton-1.chromeclass-toolbar-additional":{
+      "image.toolbarbutton-icon":{},
+      "label.toolbarbutton-text":{},
+      "label.toolbarbutton-multiline-text":{},
+      "dropmarker.toolbarbutton-menu-dropmarker":{
+        "image.dropmarker-icon":{}
+}
+}
+}
+}
+}

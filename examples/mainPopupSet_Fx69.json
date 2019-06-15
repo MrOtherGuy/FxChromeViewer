@@ -1,0 +1,2263 @@
+{
+"popupset#mainPopupSet":{
+  "menupopup#tabContextMenu":{
+    "menuitem#context_reloadTab":{},
+    "menuitem#context_reloadSelectedTabs":{},
+    "menuitem#context_toggleMuteTab":{},
+    "menuitem#context_toggleMuteSelectedTabs":{},
+    "menuitem#context_pinTab":{},
+    "menuitem#context_unpinTab":{},
+    "menuitem#context_pinSelectedTabs":{},
+    "menuitem#context_unpinSelectedTabs":{},
+    "menuitem#context_duplicateTab":{},
+    "menuitem#context_duplicateTabs":{},
+    "menuseparator":{},
+    "menuitem#context_selectAllTabs":{},
+    "menuitem#context_bookmarkSelectedTabs":{},
+    "menuitem#context_bookmarkTab":{},
+    "menu#context_reopenInContainer":{
+      "menupopup":{}
+},
+    "menu#context_moveTabOptions":{
+      "menupopup#moveTabOptionsMenu":{
+        "menuitem#context_moveToStart":{},
+        "menuitem#context_moveToEnd":{},
+        "menuitem#context_openTabInWindow":{}
+}
+},
+    "menu#context_sendTabToDevice.sync-ui-item":{
+      "menupopup#context_sendTabToDevicePopupMenu":{}
+},
+    "menuseparator":{},
+    "menuitem#context_closeTabsToTheEnd":{},
+    "menuitem#context_closeOtherTabs":{},
+    "menuitem#context_undoCloseTab":{},
+    "menuitem#context_closeTab":{},
+    "menuitem#context_closeSelectedTabs":{}
+},
+  "menupopup#backForwardMenu":{
+    "menuitem.unified-nav-current":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem.unified-nav-back.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+}
+},
+  "tooltip#aHTMLTooltip":{
+    "description.tooltip-label":{}
+},
+  "tooltip#remoteBrowserTooltip":{
+    "description.tooltip-label":{}
+},
+  "panel#PopupAutoComplete":{},
+  "panel#PopupSearchAutoComplete":{},
+  "panel#PopupAutoCompleteRichResult":{},
+  "panel#DateTimePickerPanel":{},
+  "menulist#ContentSelectDropdown":{
+    "menupopup":{}
+},
+  "panel#invalid-form-popup":{
+    "description":{}
+},
+  "panel#editBookmarkPanel":{
+    "box.panel-header":{
+      "label#editBookmarkPanelTitle":{},
+      "toolbarbutton#editBookmarkPanelInfoButton":{
+        "image":{}
+}
+},
+    "html:div#editBookmarkPanelInfoArea":{
+      "html:div#editBookmarkPanelRecommendation":{},
+      "html:div#editBookmarkPanelFaviconContainer":{
+        "html:img#editBookmarkPanelFavicon":{}
+},
+      "html:div#editBookmarkPanelImage":{}
+},
+    "vbox#editBookmarkPanelContent":{
+      "hbox#editBMPanel_selectionCount":{
+        "label#editBMPanel_itemsCountText":{}
+},
+      "vbox#editBookmarkPanelRows":{
+        "vbox#editBMPanel_nameRow":{
+          "label":{},
+          "textbox#editBMPanel_namePicker":{}
+},
+        "vbox#editBMPanel_locationRow":{
+          "label":{},
+          "textbox#editBMPanel_locationField.uri-element":{}
+},
+        "vbox#editBMPanel_folderRow":{
+          "label":{},
+          "hbox":{
+            "menulist#editBMPanel_folderMenuList.folder-icon.panel-button":{},
+            "button#editBMPanel_foldersExpander.expander-down.panel-button":{}
+}
+},
+        "vbox#editBMPanel_folderTreeRow":{
+          "hbox#editBMPanel_newFolderBox":{
+            "button#editBMPanel_newFolderButton":{}
+}
+},
+        "vbox#editBMPanel_tagsRow":{
+          "label":{},
+          "hbox":{
+            "textbox#editBMPanel_tagsField":{},
+            "button#editBMPanel_tagsSelectorExpander.expander-down.panel-button":{}
+}
+},
+        "vbox#editBMPanel_tagsSelectorRow":{
+          "richlistbox#editBMPanel_tagsSelector":{}
+},
+        "vbox#editBMPanel_keywordRow":{
+          "label":{},
+          "textbox#editBMPanel_keywordField":{}
+}
+}
+},
+    "vbox#editBookmarkPanelBottomContent":{
+      "checkbox#editBookmarkPanel_showForNewBookmarks":{
+        "image.checkbox-check":{},
+        "hbox.checkbox-label-box":{
+          "image.checkbox-icon":{},
+          "label.checkbox-label":{
+            "span.accesskey":{}
+}
+}
+}
+},
+    "hbox#editBookmarkPanelBottomButtons.panel-footer":{
+      "button#editBookmarkPanelDoneButton.editBookmarkPanelBottomButton":{
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "button#editBookmarkPanelRemoveButton.editBookmarkPanelBottomButton":{
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+}
+}
+},
+  "panel#UITourTooltip":{
+    "vbox":{
+      "hbox#UITourTooltipBody":{
+        "image#UITourTooltipIcon":{},
+        "vbox":{
+          "hbox#UITourTooltipTitleContainer":{
+            "label#UITourTooltipTitle":{},
+            "toolbarbutton#UITourTooltipClose.close-icon":{}
+},
+          "description#UITourTooltipDescription":{}
+}
+},
+      "hbox#UITourTooltipButtons":{}
+}
+},
+  "panel#UITourHighlightContainer":{
+    "box#UITourHighlight":{}
+},
+  "panel#sidebarMenu-popup.cui-widget-panel":{
+    "toolbarbutton#sidebar-switcher-bookmarks.subviewbutton.subviewbutton-iconic":{},
+    "toolbarbutton#sidebar-switcher-history.subviewbutton.subviewbutton-iconic":{},
+    "toolbarbutton#sidebar-switcher-tabs.subviewbutton.subviewbutton-iconic":{},
+    "toolbarseparator":{},
+    "toolbarseparator#sidebar-extensions-separator":{},
+    "toolbarbutton#sidebar-reverse-position.subviewbutton":{},
+    "toolbarseparator":{},
+    "toolbarbutton.subviewbutton":{}
+},
+  "menupopup#toolbar-context-menu":{
+    "menuitem.customize-context-manageExtension":{},
+    "menuitem.customize-context-removeExtension":{},
+    "menuitem.customize-context-reportExtension":{},
+    "menuseparator":{},
+    "menuitem.customize-context-moveToPanel":{},
+    "menuitem#toolbar-context-autohide-downloads-button":{},
+    "menuitem.customize-context-removeFromToolbar":{},
+    "menuitem#toolbar-context-reloadSelectedTab":{},
+    "menuitem#toolbar-context-reloadSelectedTabs":{},
+    "menuitem#toolbar-context-bookmarkSelectedTab":{},
+    "menuitem#toolbar-context-bookmarkSelectedTabs":{},
+    "menuitem#toolbar-context-selectAllTabs":{},
+    "menuitem#toolbar-context-undoCloseTab":{},
+    "menuseparator":{},
+    "menuseparator#viewToolbarsMenuSeparator":{},
+    "menuitem.viewCustomizeToolbar":{}
+},
+  "menupopup#blockedPopupOptions":{
+    "menuitem#blockedPopupAllowSite":{},
+    "menuitem":{},
+    "menuitem#blockedPopupDontShowMessage":{},
+    "menuseparator#blockedPopupsSeparator":{}
+},
+  "menupopup#autohide-context":{
+    "menuitem":{},
+    "menuseparator":{},
+    "menuitem":{}
+},
+  "menupopup#contentAreaContextMenu":{
+    "menugroup#context-navigation":{
+      "menuitem#context-back.menuitem-iconic":{
+        "hbox.menu-iconic-left":{
+          "image.menu-iconic-icon":{}
+},
+        "label.menu-iconic-text":{},
+        "label.menu-iconic-highlightable-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-iconic-accel":{}
+}
+},
+      "menuitem#context-forward.menuitem-iconic":{
+        "hbox.menu-iconic-left":{
+          "image.menu-iconic-icon":{}
+},
+        "label.menu-iconic-text":{},
+        "label.menu-iconic-highlightable-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-iconic-accel":{}
+}
+},
+      "menuitem#context-reload.menuitem-iconic":{
+        "hbox.menu-iconic-left":{
+          "image.menu-iconic-icon":{}
+},
+        "label.menu-iconic-text":{},
+        "label.menu-iconic-highlightable-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-iconic-accel":{}
+}
+},
+      "menuitem#context-stop.menuitem-iconic":{
+        "hbox.menu-iconic-left":{
+          "image.menu-iconic-icon":{}
+},
+        "label.menu-iconic-text":{},
+        "label.menu-iconic-highlightable-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-iconic-accel":{}
+}
+},
+      "menuitem#context-bookmarkpage.menuitem-iconic":{
+        "hbox.menu-iconic-left":{
+          "image.menu-iconic-icon":{}
+},
+        "label.menu-iconic-text":{},
+        "label.menu-iconic-highlightable-text":{
+          "span.accesskey":{}
+},
+        "hbox.menu-accel-container":{
+          "label.menu-iconic-accel":{}
+}
+}
+},
+    "menuseparator#context-sep-navigation":{},
+    "menuseparator#page-menu-separator":{},
+    "menuitem#spell-no-suggestions":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#spell-add-to-dictionary":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#spell-undo-add-to-dictionary":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#spell-suggestions-separator":{},
+    "menuitem#context-openlinkincurrent":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-openlinkincontainertab":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-openlinkintab":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menu#context-openlinkinusercontext-menu":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+},
+      "hbox.menu-right":{
+        "image":{}
+},
+      "menupopup":{}
+},
+    "menuitem#context-openlink":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-openlinkprivate":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-open":{},
+    "menuitem#context-bookmarklink":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-savelink":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-savelinktopocket":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-copyemail":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-copylink":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-copylink":{},
+    "menuitem#context-media-play":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-media-pause":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-media-mute":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-media-unmute":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menu#context-media-playbackrate":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+},
+      "hbox.menu-right":{
+        "image":{}
+},
+      "menupopup":{
+        "menuitem#context-media-playbackrate-050x":{
+          "hbox.menu-iconic-left":{
+            "image.menu-iconic-icon":{}
+},
+          "label.menu-iconic-text":{},
+          "label.menu-iconic-highlightable-text":{
+            "span.accesskey":{}
+},
+          "hbox.menu-accel-container":{
+            "label.menu-iconic-accel":{}
+}
+},
+        "menuitem#context-media-playbackrate-100x":{
+          "hbox.menu-iconic-left":{
+            "image.menu-iconic-icon":{}
+},
+          "label.menu-iconic-text":{},
+          "label.menu-iconic-highlightable-text":{
+            "span.accesskey":{}
+},
+          "hbox.menu-accel-container":{
+            "label.menu-iconic-accel":{}
+}
+},
+        "menuitem#context-media-playbackrate-125x":{
+          "hbox.menu-iconic-left":{
+            "image.menu-iconic-icon":{}
+},
+          "label.menu-iconic-text":{},
+          "label.menu-iconic-highlightable-text":{
+            "span.accesskey":{}
+},
+          "hbox.menu-accel-container":{
+            "label.menu-iconic-accel":{}
+}
+},
+        "menuitem#context-media-playbackrate-150x":{
+          "hbox.menu-iconic-left":{
+            "image.menu-iconic-icon":{}
+},
+          "label.menu-iconic-text":{},
+          "label.menu-iconic-highlightable-text":{
+            "span.accesskey":{}
+},
+          "hbox.menu-accel-container":{
+            "label.menu-iconic-accel":{}
+}
+},
+        "menuitem#context-media-playbackrate-200x":{
+          "hbox.menu-iconic-left":{
+            "image.menu-iconic-icon":{}
+},
+          "label.menu-iconic-text":{},
+          "label.menu-iconic-highlightable-text":{
+            "span.accesskey":{}
+},
+          "hbox.menu-accel-container":{
+            "label.menu-iconic-accel":{}
+}
+}
+}
+},
+    "menuitem#context-media-loop":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{
+        "span.accesskey":{}
+},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem#context-media-showcontrols":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-media-hidecontrols":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-video-fullscreen":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-leave-dom-fullscreen":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-video-pictureinpicture":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{
+        "span.accesskey":{}
+},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuseparator#context-media-sep-commands":{},
+    "menuitem#context-reloadimage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-viewimage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-viewvideo":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-copyimage-contents":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-copyimage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-copyvideourl":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-copyaudiourl":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-copyimage":{},
+    "menuitem#context-saveimage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-sendimage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-setDesktopBackground":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-viewimageinfo":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-viewimagedesc":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-savevideo":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-saveaudio":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-video-saveimage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-sendvideo":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-sendaudio":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-ctp-play":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-ctp-hide":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-ctp":{},
+    "menuitem#context-savepage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-pocket":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-sendpagetodevice.sync-ui-item":{},
+    "menu#context-sendpagetodevice.sync-ui-item":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+},
+      "hbox.menu-right":{
+        "image":{}
+},
+      "menupopup#context-sendpagetodevice-popup":{}
+},
+    "menuseparator#context-sep-viewbgimage":{},
+    "menuitem#context-viewbgimage":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-undo":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-undo":{},
+    "menuitem#context-cut":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-copy":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-paste":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-delete":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-paste":{},
+    "menuitem#context-selectall":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-selectall":{},
+    "menuitem#context-keywordfield":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-searchselect":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-sendlinktodevice.sync-ui-item":{},
+    "menu#context-sendlinktodevice.sync-ui-item":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+},
+      "hbox.menu-right":{
+        "image":{}
+},
+      "menupopup#context-sendlinktodevice-popup":{}
+},
+    "menuseparator#frame-sep":{},
+    "menu#frame":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+},
+      "hbox.menu-right":{
+        "image":{}
+},
+      "menupopup":{
+        "menuitem#context-showonlythisframe":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuitem#context-openframeintab":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuitem#context-openframe":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuseparator#open-frame-sep":{},
+        "menuitem#context-reloadframe":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuseparator":{},
+        "menuitem#context-bookmarkframe":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuitem#context-saveframe":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuseparator":{},
+        "menuitem#context-printframe":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuseparator":{},
+        "menuitem#context-viewframesource":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuitem#context-viewframeinfo":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+}
+}
+},
+    "menuitem#context-viewpartialsource-selection":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-sep-viewsource":{},
+    "menuitem#context-viewsource":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-viewinfo":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#spell-separator":{},
+    "menuitem#spell-check-enabled":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{
+        "span.accesskey":{}
+},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+},
+    "menuitem#spell-add-dictionaries-main":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menu#spell-dictionaries":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+},
+      "hbox.menu-right":{
+        "image":{}
+},
+      "menupopup#spell-dictionaries-menu":{
+        "menuseparator#spell-language-separator":{},
+        "menuitem#spell-add-dictionaries":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+}
+}
+},
+    "menuseparator#context-sep-bidi":{},
+    "menuitem#context-bidi-text-direction-toggle":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-bidi-page-direction-toggle":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#fill-login-separator":{},
+    "menu#fill-login":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+},
+      "hbox.menu-right":{
+        "image":{}
+},
+      "menupopup#fill-login-popup":{
+        "menuitem#fill-login-no-logins":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuseparator#saved-logins-separator":{},
+        "menuitem#fill-login-saved-passwords":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+}
+}
+},
+    "menuseparator#inspect-separator":{},
+    "menuitem#context-inspect":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuitem#context-inspect-a11y":{
+      "label.menu-text":{},
+      "hbox.menu-accel-container":{
+        "label.menu-accel":{}
+}
+},
+    "menuseparator#context-media-eme-separator":{},
+    "menuitem#context-media-eme-learnmore.menuitem-iconic":{
+      "hbox.menu-iconic-left":{
+        "image.menu-iconic-icon":{}
+},
+      "label.menu-iconic-text":{},
+      "label.menu-iconic-highlightable-text":{
+        "span.accesskey":{}
+},
+      "hbox.menu-accel-container":{
+        "label.menu-iconic-accel":{}
+}
+}
+},
+  "menupopup#placesContext":{
+    "menuitem#placesContext_open":{},
+    "menuitem#placesContext_open:newtab":{},
+    "menuitem#placesContext_openContainer:tabs":{},
+    "menuitem#placesContext_openLinks:tabs":{},
+    "menuitem#placesContext_open:newwindow":{},
+    "menuitem#placesContext_open:newprivatewindow":{},
+    "menuseparator#placesContext_openSeparator":{},
+    "menuitem#placesContext_new:bookmark":{},
+    "menuitem#placesContext_new:folder":{},
+    "menuitem#placesContext_new:separator":{},
+    "menuseparator#placesContext_newSeparator":{},
+    "menuitem#placesContext_createBookmark":{},
+    "menuitem#placesContext_cut":{},
+    "menuitem#placesContext_copy":{},
+    "menuitem#placesContext_paste":{},
+    "menuseparator#placesContext_editSeparator":{},
+    "menuitem#placesContext_delete":{},
+    "menuitem#placesContext_delete_history":{},
+    "menuitem#placesContext_deleteHost":{},
+    "menuseparator#placesContext_deleteSeparator":{},
+    "menuitem#placesContext_sortBy:name":{},
+    "menuseparator#placesContext_sortSeparator":{},
+    "menuitem#placesContext_show:info":{}
+},
+  "panel#ctrlTab-panel":{
+    "hbox#ctrlTab-previews":{
+      "button.ctrlTab-preview":{
+        "vbox.ctrlTab-preview-inner":{
+          "hbox.ctrlTab-canvas":{},
+          "hbox.ctrlTab-favicon-container":{
+            "image.ctrlTab-favicon":{}
+},
+          "label.ctrlTab-label.plain":{}
+},
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "button.ctrlTab-preview":{
+        "vbox.ctrlTab-preview-inner":{
+          "hbox.ctrlTab-canvas":{},
+          "hbox.ctrlTab-favicon-container":{
+            "image.ctrlTab-favicon":{}
+},
+          "label.ctrlTab-label.plain":{}
+},
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "button.ctrlTab-preview":{
+        "vbox.ctrlTab-preview-inner":{
+          "hbox.ctrlTab-canvas":{},
+          "hbox.ctrlTab-favicon-container":{
+            "image.ctrlTab-favicon":{}
+},
+          "label.ctrlTab-label.plain":{}
+},
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "button.ctrlTab-preview":{
+        "vbox.ctrlTab-preview-inner":{
+          "hbox.ctrlTab-canvas":{},
+          "hbox.ctrlTab-favicon-container":{
+            "image.ctrlTab-favicon":{}
+},
+          "label.ctrlTab-label.plain":{}
+},
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "button.ctrlTab-preview":{
+        "vbox.ctrlTab-preview-inner":{
+          "hbox.ctrlTab-canvas":{},
+          "hbox.ctrlTab-favicon-container":{
+            "image.ctrlTab-favicon":{}
+},
+          "label.ctrlTab-label.plain":{}
+},
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "button.ctrlTab-preview":{
+        "vbox.ctrlTab-preview-inner":{
+          "hbox.ctrlTab-canvas":{},
+          "hbox.ctrlTab-favicon-container":{
+            "image.ctrlTab-favicon":{}
+},
+          "label.ctrlTab-label.plain":{}
+},
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+}
+},
+    "hbox#ctrlTab-showAll-container":{
+      "button#ctrlTab-showAll.ctrlTab-preview":{
+        "vbox.ctrlTab-preview-inner":{
+          "label.ctrlTab-label.plain":{}
+},
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+}
+}
+},
+  "panel#pageActionPanel.cui-widget-panel":{
+    "panelmultiview#pageActionPanelMultiView":{
+      "panelview#pageActionPanelMainView.PanelUI-subView":{
+        "vbox.panel-subview-body":{}
+}
+}
+},
+  "panel#confirmation-hint":{
+    "hbox#confirmation-hint-checkmark-animation-container":{
+      "image#confirmation-hint-checkmark-image":{}
+},
+    "vbox#confirmation-hint-message-container":{
+      "label#confirmation-hint-message":{},
+      "label#confirmation-hint-description":{}
+}
+},
+  "menupopup#pageActionContextMenu":{
+    "menuitem.pageActionContextMenuItem.builtInUnpinned":{},
+    "menuitem.pageActionContextMenuItem.builtInPinned":{},
+    "menuitem.pageActionContextMenuItem.extensionUnpinned":{},
+    "menuitem.pageActionContextMenuItem.extensionPinned":{},
+    "menuseparator.pageActionContextMenuItem.extensionPinned":{},
+    "menuitem.pageActionContextMenuItem.extensionPinned":{}
+},
+  "tooltip#bhTooltip":{
+    "description.tooltip-label":{},
+    "vbox#bhTooltipTextBox":{
+      "description#bhtTitleText.tooltip-label":{},
+      "description#bhtUrlText.tooltip-label.uri-element":{}
+}
+},
+  "tooltip#tabbrowser-tab-tooltip":{
+    "description.tooltip-label":{}
+},
+  "tooltip#back-button-tooltip":{
+    "description.tooltip-label":{},
+    "description.tooltip-label":{},
+    "description.tooltip-label":{}
+},
+  "tooltip#forward-button-tooltip":{
+    "description.tooltip-label":{},
+    "description.tooltip-label":{},
+    "description.tooltip-label":{}
+},
+  "panel#notification-popup":{},
+  "popupnotification#webRTC-shareDevices-notification":{
+    "popupnotificationcontent#webRTC-selectCamera":{
+      "label":{},
+      "menulist#webRTC-selectCamera-menulist":{
+        "hbox.menulist-label-box":{
+          "image.menulist-icon":{},
+          "label.menulist-label":{},
+          "label.menulist-highlightable-label":{}
+},
+        "dropmarker.menulist-dropmarker":{
+          "image.dropmarker-icon":{}
+},
+        "menupopup#webRTC-selectCamera-menupopup":{}
+}
+},
+    "popupnotificationcontent#webRTC-selectWindowOrScreen":{
+      "label#webRTC-selectWindow-label":{},
+      "menulist#webRTC-selectWindow-menulist":{
+        "hbox.menulist-label-box":{
+          "image.menulist-icon":{},
+          "label.menulist-label":{},
+          "label.menulist-highlightable-label":{}
+},
+        "dropmarker.menulist-dropmarker":{
+          "image.dropmarker-icon":{}
+},
+        "menupopup#webRTC-selectWindow-menupopup":{}
+},
+      "description#webRTC-all-windows-shared":{}
+},
+    "popupnotificationcontent#webRTC-preview":{
+      "html:video#webRTC-previewVideo":{},
+      "vbox#webRTC-previewWarningBox":{
+        "spacer":{},
+        "description#webRTC-previewWarning":{}
+}
+},
+    "popupnotificationcontent#webRTC-selectMicrophone":{
+      "label":{},
+      "menulist#webRTC-selectMicrophone-menulist":{
+        "hbox.menulist-label-box":{
+          "image.menulist-icon":{},
+          "label.menulist-label":{},
+          "label.menulist-highlightable-label":{}
+},
+        "dropmarker.menulist-dropmarker":{
+          "image.dropmarker-icon":{}
+},
+        "menupopup#webRTC-selectMicrophone-menupopup":{}
+}
+}
+},
+  "popupnotification#servicesInstall-notification":{
+    "popupnotificationcontent":{}
+},
+  "popupnotification#password-notification":{
+    "popupnotificationcontent":{
+      "textbox#password-notification-username":{},
+      "textbox#password-notification-password":{},
+      "checkbox#password-notification-visibilityToggle":{
+        "image.checkbox-check":{},
+        "hbox.checkbox-label-box":{
+          "image.checkbox-icon":{},
+          "label.checkbox-label":{}
+}
+}
+}
+},
+  "popupnotification#addon-progress-notification":{
+    "popupnotificationcontent":{
+      "html:progress#addon-progress-notification-progressmeter":{},
+      "label#addon-progress-notification-progresstext":{}
+}
+},
+  "popupnotification#addon-install-confirmation-notification":{
+    "popupnotificationcontent#addon-install-confirmation-content":{}
+},
+  "popupnotification#addon-webext-permissions-notification":{
+    "popupnotificationcontent.addon-webext-perm-notification-content":{
+      "description#addon-webext-perm-text.addon-webext-perm-text":{},
+      "label#addon-webext-perm-intro.addon-webext-perm-text":{},
+      "html:ul#addon-webext-perm-list.addon-webext-perm-list":{},
+      "hbox":{
+        "label#addon-webext-perm-info.popup-notification-learnmore-link.text-link":{}
+}
+}
+},
+  "popupnotification#addon-install-blocked-notification":{
+    "popupnotificationcontent#addon-install-blocked-content":{
+      "description#addon-install-blocked-message.popup-notification-description":{},
+      "hbox":{
+        "label#addon-install-blocked-info.popup-notification-learnmore-link.text-link":{}
+}
+}
+},
+  "popupnotification#contextual-feature-recommendation-notification":{
+    "popupnotificationheader#cfr-notification-header":{
+      "stack#cfr-notification-header-stack":{
+        "description#cfr-notification-header-label":{},
+        "label#cfr-notification-header-link.text-link":{
+          "xul:image#cfr-notification-header-image":{}
+}
+}
+},
+    "popupnotificationcontent":{
+      "description#cfr-notification-author":{}
+},
+    "popupnotificationfooter#cfr-notification-footer":{
+      "vbox#cfr-notification-footer-text-and-addon-info":{
+        "description#cfr-notification-footer-text":{},
+        "hbox#cfr-notification-footer-addon-info":{
+          "hbox#cfr-notification-footer-filled-stars":{},
+          "hbox#cfr-notification-footer-empty-stars":{},
+          "label#cfr-notification-footer-users":{},
+          "spacer#cfr-notification-footer-spacer":{},
+          "label#cfr-notification-footer-learn-more-link.text-link":{}
+}
+}
+}
+},
+  "popupnotification#storage-access-notification":{
+    "popupnotificationcontent.storage-access-notification-content":{
+      "xul:vbox":{
+        "xul:description.storage-access-perm-text":{
+          "html:span#storage-access-perm-label":{},
+          "html:a#storage-access-perm-learnmore.text-link.popup-notification-learnmore-link":{},
+          "html:span#storage-access-perm-endlabel":{}
+}
+}
+}
+},
+  "panel#widget-overflow":{
+    "panelmultiview":{
+      "panelview#widget-overflow-mainView":{
+        "vbox.panel-subview-body":{
+          "vbox#widget-overflow-list.widget-overflow-list":{},
+          "toolbarseparator#widget-overflow-fixed-separator":{},
+          "vbox#widget-overflow-fixed-list.widget-overflow-list.customization-target":{
+            "toolbarbutton#fxa-toolbar-menu-button.toolbarbutton-1.chromeclass-toolbar-additional":{}
+}
+},
+        "toolbarbutton#overflowMenu-customize-button.subviewbutton.panel-subview-footer":{}
+}
+},
+    "menupopup#customizationPanelItemContextMenu":{
+      "menuitem.customize-context-manageExtension":{},
+      "menuitem.customize-context-removeExtension":{},
+      "menuitem.customize-context-reportExtension":{},
+      "menuseparator":{},
+      "menuitem#customizationPanelItemContextMenuPin.customize-context-moveToPanel":{},
+      "menuitem#customizationPanelItemContextMenuUnpin.customize-context-moveToToolbar":{},
+      "menuitem.customize-context-removeFromPanel":{},
+      "menuseparator":{},
+      "menuitem.viewCustomizeToolbar":{}
+}
+},
+  "panel#panic-button-success-notification":{
+    "hbox#panic-button-success-header":{
+      "image#panic-button-success-icon":{},
+      "vbox":{
+        "description":{},
+        "description":{}
+}
+},
+    "button#panic-button-success-closebutton":{
+      "hbox.box-inherit.button-box":{
+        "image.button-icon":{},
+        "label.button-text":{}
+}
+}
+},
+  "panel#appMenu-notification-popup.popup-notification-panel":{
+    "popupnotification#appMenu-update-available-notification":{
+      "popupnotificationcontent#update-available-notification-content":{
+        "description#update-available-description":{},
+        "label#update-available-whats-new.text-link":{}
+}
+},
+    "popupnotification#appMenu-update-manual-notification":{
+      "popupnotificationcontent#update-manual-notification-content":{
+        "description#update-manual-description":{},
+        "label#update-manual-whats-new.text-link":{}
+}
+},
+    "popupnotification#appMenu-update-unsupported-notification":{
+      "popupnotificationcontent#update-unsupported-notification-content":{
+        "description#update-unsupported-description":{}
+}
+},
+    "popupnotification#appMenu-update-restart-notification":{
+      "popupnotificationcontent#update-restart-notification-content":{
+        "description#update-restart-description":{}
+}
+},
+    "popupnotification#appMenu-addon-installed-notification":{
+      "popupnotificationcontent.addon-installed-notification-content":{
+        "description#addon-install-description":{
+          "image.addon-addon-icon":{},
+          "image.addon-toolbar-icon":{}
+},
+        "checkbox#addon-incognito-checkbox":{
+          "image.checkbox-check":{},
+          "hbox.checkbox-label-box":{
+            "image.checkbox-icon":{},
+            "label.checkbox-label":{}
+}
+}
+}
+},
+    "popupnotification#appMenu-addon-private-browsing-notification":{
+      "popupnotificationcontent.addon-private-browsing-notification-content":{
+        "description#addon-private-browsing-description":{},
+        "label#addon-private-browsing-learn-more.text-link":{}
+}
+}
+},
+  "menupopup#customizationPaletteItemContextMenu":{
+    "menuitem.customize-context-addToToolbar":{},
+    "menuitem.customize-context-addToPanel":{}
+},
+  "menupopup#customizationPanelContextMenu":{
+    "menuitem":{}
+},
+  "panel#appMenu-popup.cui-widget-panel":{
+    "panelmultiview#appMenu-multiView":{
+      "box.panel-viewcontainer":{
+        "box.panel-viewstack":{
+          "panelview#appMenu-mainView.PanelUI-subView":{
+            "vbox.panel-subview-body":{}
+},
+          "panelview#PanelUI-developer.PanelUI-subView":{
+            "box.panel-header":{},
+            "vbox#PanelUI-developerItems.panel-subview-body":{}
+}
+}
+},
+      "box.panel-viewcontainer.offscreen":{
+        "box.panel-viewstack":{}
+},
+      "panelview#PanelUI-history":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#appMenuViewHistorySidebar.subviewbutton.subviewbutton-iconic":{
+            "observes":{},
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenuClearRecentHistory.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarseparator":{},
+          "toolbarbutton#appMenuRecentlyClosedTabs.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenuRecentlyClosedWindows.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarseparator":{},
+          "label.subview-subheader":{},
+          "toolbaritem#appMenu_historyMenu":{}
+},
+        "toolbarbutton#PanelUI-historyMore.panel-subview-footer.subviewbutton":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-text":{},
+          "label.toolbarbutton-multiline-text":{},
+          "dropmarker.toolbarbutton-menu-dropmarker":{
+            "image.dropmarker-icon":{}
+}
+}
+},
+      "panelview#appMenu-library-recentlyClosedTabs":{},
+      "panelview#appMenu-library-recentlyClosedWindows":{},
+      "panelview#PanelUI-remotetabs.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "vbox#PanelUI-remotetabs-main":{
+            "vbox#PanelUI-remotetabs-buttons":{},
+            "deck#PanelUI-remotetabs-deck":{}
+},
+          "hbox":{
+            "vbox#PanelUI-remotetabs-setupsync.PanelUI-remotetabs-instruction-box":{},
+            "vbox#PanelUI-remotetabs-reauthsync.PanelUI-remotetabs-instruction-box":{},
+            "vbox#PanelUI-remotetabs-unverified.PanelUI-remotetabs-instruction-box":{}
+}
+}
+},
+      "panelview#PanelUI-bookmarks.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#panelMenuBookmarkThisPage.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#panelMenu_bookmarkingTools.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#panelMenu_searchBookmarks.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarseparator":{},
+          "label#panelMenu_recentBookmarks.subview-subheader":{},
+          "toolbaritem#panelMenu_bookmarksMenu":{}
+},
+        "toolbarbutton#panelMenu_showAllBookmarks.subviewbutton.panel-subview-footer":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-text":{},
+          "label.toolbarbutton-multiline-text":{},
+          "dropmarker.toolbarbutton-menu-dropmarker":{
+            "image.dropmarker-icon":{}
+}
+}
+},
+      "panelview#PanelUI-containers":{
+        "vbox#PanelUI-containersItems":{}
+},
+      "panelview#PanelUI-helpView.PanelUI-subView":{
+        "vbox#PanelUI-helpItems.panel-subview-body":{}
+},
+      "panelview#PanelUI-profiler":{
+        "iframe#PanelUI-profilerIframe":{}
+},
+      "panelview#PanelUI-characterEncodingView":{
+        "vbox.panel-subview-body":{
+          "vbox#PanelUI-characterEncodingView-pinned.PanelUI-characterEncodingView-list":{},
+          "toolbarseparator":{},
+          "vbox#PanelUI-characterEncodingView-charsets.PanelUI-characterEncodingView-list":{},
+          "toolbarseparator":{},
+          "vbox":{
+            "label#PanelUI-characterEncodingView-autodetect-label":{},
+            "vbox#PanelUI-characterEncodingView-autodetect.PanelUI-characterEncodingView-list":{}
+}
+}
+},
+      "panelview#PanelUI-panicView":{},
+      "panelview#appMenu-moreView.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#appMenu-taskmanager-button.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenu-characterencoding-button.subviewbutton.subviewbutton-nav":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenu-workoffline-button.subviewbutton":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+}
+}
+},
+      "panelview#appMenu-libraryView.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#appMenu-library-bookmarks-button.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenu-library-pocket-button.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenu-library-history-button.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenu-library-downloads-button.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#appMenu-library-remotetabs-button.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarseparator":{},
+          "label.subview-subheader":{},
+          "toolbaritem#appMenu-library-recentHighlights":{}
+}
+},
+      "panelview#PanelUI-fxa.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "vbox#PanelUI-fxa-signin":{
+            "image.fxaChooseWhatToSyncDevices":{},
+            "label.PanelUI-fxa-signin-instruction-callout":{},
+            "label.PanelUI-fxa-signin-instruction-label":{},
+            "toolbarbutton.PanelUI-fxa-signin-button":{}
+},
+          "vbox#PanelUI-fxa-unverified.PanelUI-fxa-unverified-instruction-box":{
+            "image.fxaGraphicMail":{},
+            "label.PanelUI-fxa-signin-instruction-callout":{},
+            "label.PanelUI-fxa-signin-instruction-label":{},
+            "toolbarbutton.PanelUI-fxa-signin-button":{}
+},
+          "vbox#PanelUI-fxa-menu":{
+            "hbox.fxa-avatar-subpanel":{},
+            "toolbarseparator":{},
+            "toolbarbutton#PanelUI-fxa-menu-sendtab-button.subviewbutton.subviewbutton-iconic":{},
+            "toolbarbutton#PanelUI-fxa-menu-remotetabs-button.subviewbutton.subviewbutton-iconic":{},
+            "toolbarbutton#PanelUI-fxa-menu-view-sidebar.subviewbutton.subviewbutton-iconic":{},
+            "toolbarseparator":{},
+            "toolbarbutton.subviewbutton":{},
+            "toolbarbutton.subviewbutton":{},
+            "toolbarbutton.subviewbutton":{},
+            "toolbarseparator":{},
+            "toolbarbutton#PanelUI-fxa-menu-syncnow-button.subviewbutton.subviewbutton-iconic":{}
+}
+}
+},
+      "panelview#PanelUI-sendTabToDevice.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#PanelUI-sendTabToDevice-syncingDevices.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+}
+}
+},
+      "panelview#PanelUI-bookmarkingTools.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#panelMenu_toggleBookmarksMenu.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#panelMenu_viewBookmarksSidebar.subviewbutton.subviewbutton-iconic":{
+            "observes":{},
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarbutton#panelMenu_viewBookmarksToolbar.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+}
+}
+}
+}
+},
+  "panel#downloads-button-autohide-panel":{
+    "checkbox#downloads-button-autohide-checkbox":{
+      "image.checkbox-check":{},
+      "hbox.checkbox-label-box":{
+        "image.checkbox-icon":{},
+        "label.checkbox-label":{}
+}
+}
+},
+  "panel#extension-notification-panel":{
+    "popupnotification#extension-new-tab-notification.extension-controlled-notification":{
+      "popupnotificationcontent":{
+        "description#extension-new-tab-notification-description":{}
+}
+},
+    "popupnotification#extension-homepage-notification.extension-controlled-notification":{
+      "popupnotificationcontent":{
+        "description#extension-homepage-notification-description":{}
+}
+},
+    "popupnotification#extension-tab-hide-notification.extension-controlled-notification":{
+      "popupnotificationcontent":{
+        "description#extension-tab-hide-notification-description":{}
+}
+}
+},
+  "panel#identity-popup":{
+    "panelmultiview#identity-popup-multiView":{
+      "panelview#identity-popup-mainView":{
+        "vbox#identity-popup-mainView-panel-header":{
+          "label":{
+            "html:span#identity-popup-mainView-panel-header-span":{}
+}
+},
+        "hbox#identity-popup-security.identity-popup-section":{
+          "vbox.identity-popup-security-content":{
+            "label.plain":{},
+            "description.identity-popup-connection-not-secure":{},
+            "description.identity-popup-connection-secure":{},
+            "description":{},
+            "description":{},
+            "description":{},
+            "vbox#identity-popup-security-descriptions":{}
+},
+          "button#identity-popup-security-expander.identity-popup-expander":{
+            "hbox.box-inherit.button-box":{}
+}
+},
+        "hbox#tracking-protection-container.identity-popup-section":{
+          "vbox#identity-popup-content-blocking-content":{
+            "hbox":{},
+            "description#identity-popup-content-blocking-detected":{},
+            "description#identity-popup-content-blocking-not-detected":{},
+            "vbox#identity-popup-content-blocking-category-list":{},
+            "button#tracking-action-unblock.panel-button.tracking-protection-button":{},
+            "button#tracking-action-unblock-private.panel-button.tracking-protection-button":{},
+            "button#tracking-action-block.panel-button.tracking-protection-button":{},
+            "label#identity-popup-content-blocking-report-breakage.text-link.subviewkeynav":{}
+}
+},
+        "hbox.identity-popup-section":{
+          "vbox#identity-popup-permissions-content":{
+            "hbox":{},
+            "vbox#identity-popup-permission-list":{},
+            "description#identity-popup-permission-reload-hint":{},
+            "description#identity-popup-permission-empty-hint":{}
+}
+},
+        "vbox#identity-popup-clear-sitedata-footer.panel-footer":{
+          "button#identity-popup-clear-sitedata-button":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+},
+      "panelview#identity-popup-securityView":{
+        "vbox.identity-popup-security-content":{
+          "label.plain":{
+            "label#identity-popup-host.identity-popup-headline":{}
+},
+          "description.identity-popup-connection-not-secure":{},
+          "description.identity-popup-connection-secure":{}
+},
+        "vbox#identity-popup-securityView-body.panel-view-body-unscrollable":{
+          "description#identity-popup-content-verified-by":{},
+          "description#identity-popup-content-owner.header":{},
+          "description#identity-popup-content-supplemental":{},
+          "description#identity-popup-content-verifier":{},
+          "description#identity-popup-content-verifier-unknown.identity-popup-warning-gray":{
+            "label#identity-popup-custom-root-learn-more.plain.text-link":{}
+},
+          "button.panel-button":{
+            "hbox.box-inherit.button-box":{}
+},
+          "description":{},
+          "description":{
+            "label#identity-popup-insecure-login-forms-learn-more.plain.text-link":{}
+},
+          "description":{},
+          "description.identity-popup-warning-yellow":{},
+          "description.identity-popup-warning-gray":{
+            "label.identity-popup-mcb-learn-more.plain":{}
+},
+          "description":{},
+          "description.identity-popup-warning-yellow":{
+            "label.identity-popup-mcb-learn-more.plain":{}
+},
+          "description":{},
+          "description.identity-popup-warning-yellow":{
+            "label.identity-popup-mcb-learn-more.plain":{}
+},
+          "description":{},
+          "description":{
+            "label.identity-popup-mcb-learn-more.plain":{}
+},
+          "description":{
+            "label.identity-popup-mcb-learn-more.plain":{}
+},
+          "button.panel-button":{
+            "hbox.box-inherit.button-box":{}
+},
+          "button.panel-button":{
+            "hbox.box-inherit.button-box":{}
+}
+},
+        "vbox#identity-popup-more-info-footer.panel-footer":{
+          "button#identity-popup-more-info":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+},
+      "panelview#identity-popup-trackersView":{
+        "vbox#identity-popup-trackersView-list.identity-popup-content-blocking-list":{},
+        "hbox#identity-popup-trackersView-strict-info":{
+          "image":{},
+          "label":{}
+},
+        "vbox.panel-footer":{
+          "button#identity-popup-trackersView-settings-button":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+},
+      "panelview#identity-popup-cookiesView":{
+        "vbox#identity-popup-cookiesView-list.identity-popup-content-blocking-list":{},
+        "vbox.panel-footer":{
+          "button#identity-popup-cookiesView-settings-button":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+},
+      "panelview#identity-popup-fingerprintersView":{
+        "vbox#identity-popup-fingerprintersView-list.identity-popup-content-blocking-list":{},
+        "vbox.panel-footer":{
+          "button#identity-popup-fingerprintersView-settings-button":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+},
+      "panelview#identity-popup-cryptominersView":{
+        "vbox#identity-popup-cryptominersView-list.identity-popup-content-blocking-list":{},
+        "vbox.panel-footer":{
+          "button#identity-popup-cryptominersView-settings-button":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+},
+      "panelview#identity-popup-breakageReportView":{
+        "vbox#identity-popup-breakageReportView-heading":{
+          "description":{},
+          "label#identity-popup-breakageReportView-learn-more.text-link":{}
+},
+        "vbox#identity-popup-breakageReportView-body.panel-view-body-unscrollable":{
+          "vbox.identity-popup-breakageReportView-collection-section":{
+            "label":{},
+            "html:input#identity-popup-breakageReportView-collection-url":{}
+},
+          "vbox.identity-popup-breakageReportView-collection-section":{
+            "label":{},
+            "html:textarea#identity-popup-breakageReportView-collection-comments":{}
+}
+},
+        "vbox#identity-popup-breakageReportView-footer.panel-footer":{
+          "button#identity-popup-breakageReportView-cancel":{
+            "hbox.box-inherit.button-box":{}
+},
+          "button#identity-popup-breakageReportView-submit":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+}
+}
+},
+  "panel#protections-popup":{
+    "panelmultiview#protections-popup-multiView":{
+      "panelview#protections-popup-mainView":{
+        "vbox#protections-popup-mainView-panel-header":{
+          "label":{
+            "html:span#protections-popup-mainView-panel-header-span":{}
+}
+},
+        "hbox#protections-popup-tp-switch-section.identity-popup-section":{
+          "vbox#protections-popup-tp-switch-label-box":{
+            "label#protections-popup-tp-switch-on-header":{},
+            "label#protections-popup-tp-switch-off-header":{},
+            "label#protections-popup-tp-switch-breakage-link.text-link":{}
+},
+          "vbox#protections-popup-tp-switch-box":{
+            "toolbarbutton#protections-popup-tp-switch":{}
+}
+},
+        "vbox#protections-popup-settings-section.identity-popup-section":{
+          "toolbarbutton#protections-popup-settings-button":{
+            "image.protection-settings-icon":{},
+            "label.protections-popup-settings-label":{}
+}
+}
+}
+}
+},
+  "stringbundleset#downloadsStrings":{},
+  "commandset":{
+    "command#downloadsCmd_doDefault":{},
+    "command#downloadsCmd_pauseResume":{},
+    "command#downloadsCmd_cancel":{},
+    "command#downloadsCmd_unblock":{},
+    "command#downloadsCmd_chooseUnblock":{},
+    "command#downloadsCmd_unblockAndOpen":{},
+    "command#downloadsCmd_confirmBlock":{},
+    "command#downloadsCmd_open":{},
+    "command#downloadsCmd_show":{},
+    "command#downloadsCmd_retry":{},
+    "command#downloadsCmd_openReferrer":{},
+    "command#downloadsCmd_copyLocation":{},
+    "command#downloadsCmd_clearList":{}
+},
+  "panel#downloadsPanel":{
+    "menupopup#downloadsContextMenu.download-state":{
+      "menuitem.downloadPauseMenuItem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuitem.downloadResumeMenuItem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuitem.downloadUnblockMenuItem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuitem.downloadShowMenuItem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuseparator.downloadCommandsSeparator":{},
+      "menuitem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuitem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuseparator":{},
+      "menuitem.downloadRemoveFromHistoryMenuItem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuitem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+},
+      "menuitem":{
+        "label.menu-text":{},
+        "hbox.menu-accel-container":{
+          "label.menu-accel":{}
+}
+}
+},
+    "panelmultiview#downloadsPanel-multiView":{
+      "box.panel-viewcontainer":{
+        "box.panel-viewstack":{
+          "panelview#downloadsPanel-mainView":{
+            "vbox.panel-view-body-unscrollable":{},
+            "vbox#downloadsFooter":{}
+}
+}
+},
+      "box.panel-viewcontainer.offscreen":{
+        "box.panel-viewstack":{}
+},
+      "panelview#downloadsPanel-blockedSubview.PanelUI-subView":{
+        "vbox.panel-view-body-unscrollable":{
+          "description#downloadsPanel-blockedSubview-title":{},
+          "description#downloadsPanel-blockedSubview-details1":{},
+          "description#downloadsPanel-blockedSubview-details2":{}
+},
+        "hbox#downloadsPanel-blockedSubview-buttons.panel-footer":{
+          "button#downloadsPanel-blockedSubview-openButton.downloadsPanelFooterButton":{
+            "hbox.box-inherit.button-box":{}
+},
+          "button#downloadsPanel-blockedSubview-deleteButton.downloadsPanelFooterButton":{
+            "hbox.box-inherit.button-box":{}
+}
+}
+},
+      "panelview#PanelUI-downloads.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#appMenu-library-downloads-show-button.subviewbutton.subviewbutton-iconic":{
+            "image.toolbarbutton-icon":{},
+            "label.toolbarbutton-text":{},
+            "label.toolbarbutton-multiline-text":{},
+            "dropmarker.toolbarbutton-menu-dropmarker":{}
+},
+          "toolbarseparator":{},
+          "toolbaritem#panelMenu_downloadsMenu":{}
+},
+        "toolbarbutton#PanelUI-downloadsMore.panel-subview-footer.subviewbutton":{
+          "image.toolbarbutton-icon":{},
+          "label.toolbarbutton-text":{},
+          "label.toolbarbutton-multiline-text":{},
+          "dropmarker.toolbarbutton-menu-dropmarker":{
+            "image.dropmarker-icon":{}
+}
+}
+}
+}
+},
+  "panel#allTabsMenu.cui-widget-panel":{
+    "panelmultiview":{
+      "panelview#allTabsMenu-allTabsView.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarbutton#allTabsMenu-undoCloseTab.subviewbutton.subviewbutton-iconic":{},
+          "toolbarbutton#allTabsMenu-searchTabs.subviewbutton.subviewbutton-iconic":{},
+          "toolbarbutton#allTabsMenu-containerTabsButton.subviewbutton.subviewbutton-nav":{},
+          "toolbarseparator#allTabsMenu-hiddenTabsSeparator":{},
+          "toolbarbutton#allTabsMenu-hiddenTabsButton.subviewbutton.subviewbutton-nav":{},
+          "toolbarseparator#allTabsMenu-tabsSeparator":{},
+          "vbox#allTabsMenu-allTabsViewTabs.panel-subview-body":{}
+}
+},
+      "panelview#allTabsMenu-hiddenTabsView.PanelUI-subView":{
+        "vbox.panel-subview-body":{}
+},
+      "panelview#allTabsMenu-containerTabsView.PanelUI-subView":{
+        "vbox.panel-subview-body":{
+          "toolbarseparator.container-tabs-submenu-separator":{},
+          "toolbarbutton.subviewbutton":{}
+}
+}
+}
+},
+  "hbox#downloads-animation-container":{
+    "vbox#downloads-notification-anchor":{
+      "vbox#downloads-indicator-notification":{}
+}
+},
+  "tooltip#dynamic-shortcut-tooltip":{
+    "description.tooltip-label":{}
+},
+  "menupopup#SyncedTabsSidebarContext":{
+    "menuitem#syncedTabsOpenSelected":{},
+    "menuitem#syncedTabsOpenSelectedInTab":{},
+    "menuitem#syncedTabsOpenSelectedInWindow":{},
+    "menuitem#syncedTabsOpenSelectedInPrivateWindow":{},
+    "menuseparator":{},
+    "menuitem#syncedTabsBookmarkSelected":{},
+    "menuitem#syncedTabsCopySelected":{},
+    "menuseparator":{},
+    "menuitem#syncedTabsOpenAllInTabs":{},
+    "menuitem#syncedTabsManageDevices":{},
+    "menuitem#syncedTabsRefresh":{}
+},
+  "menupopup#SyncedTabsSidebarTabsFilterContext.textbox-contextmenu":{
+    "menuitem":{},
+    "menuseparator":{},
+    "menuitem":{},
+    "menuitem":{},
+    "menuitem":{},
+    "menuitem":{},
+    "menuseparator":{},
+    "menuitem":{},
+    "menuseparator":{},
+    "menuitem#syncedTabsRefreshFilter":{}
+},
+  "panel#autoscroller.autoscroller":{},
+  "panel#urlbar-results":{
+    "html:div.urlbarView-body-outer":{
+      "html:div.urlbarView-body-inner":{
+        "html:div#urlbarView-results":{}
+}
+},
+    "hbox.search-one-offs":{
+      "deck.search-panel-one-offs-header.search-panel-header":{
+        "label.searchbar-oneoffheader-search":{},
+        "hbox.search-panel-searchforwith.search-panel-current-input":{
+          "label":{},
+          "label.searchbar-oneoffheader-searchtext.search-panel-input-value":{},
+          "label":{}
+},
+        "hbox.search-panel-searchonengine.search-panel-current-input":{
+          "label":{},
+          "label.searchbar-oneoffheader-engine.search-panel-input-value":{},
+          "label":{}
+}
+},
+      "description.search-panel-one-offs":{
+        "button#urlbar-engine-one-off-item-DuckDuckGo.searchbar-engine-one-off-item.last-row":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button#urlbar-engine-one-off-item-Bing.searchbar-engine-one-off-item.last-row":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button#urlbar-engine-one-off-item-Twitter.searchbar-engine-one-off-item.last-row":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button#urlbar-engine-one-off-item-Wikipedia-(en).searchbar-engine-one-off-item.last-engine":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button.searchbar-engine-one-off-item.dummy":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+},
+        "button#urlbar-anon-search-settings-compact.searchbar-engine-one-off-item.search-setting-button-compact":{
+          "hbox.box-inherit.button-box":{
+            "image.button-icon":{},
+            "label.button-text":{}
+}
+}
+},
+      "vbox.search-add-engines":{},
+      "button#urlbar-anon-search-settings.search-setting-button.search-panel-header":{
+        "hbox.box-inherit.button-box":{
+          "image.button-icon":{},
+          "label.button-text":{}
+}
+},
+      "menupopup.search-one-offs-context-menu":{
+        "menuitem.search-one-offs-context-open-in-new-tab":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+},
+        "menuitem.search-one-offs-context-set-default":{
+          "label.menu-text":{},
+          "hbox.menu-accel-container":{
+            "label.menu-accel":{}
+}
+}
+}
+}
+},
+  "panel#webextension-remote-preload-panel":{}
+}
+}

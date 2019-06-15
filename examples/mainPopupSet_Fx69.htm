@@ -1,0 +1,1410 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>span{color:#20B2AA}span+span{color:#CD5C5C}span+span+span{color:#808000}br{display:none}</style></head><body style="background:rgb(50,50,50)"><pre><code><span>popupset</span><span>#mainPopupSet</span><span></span><br>
+|_<span>menupopup</span><span>#tabContextMenu</span><span></span><br>
+| |_<span>menuitem</span><span>#context_reloadTab</span><span></span><br>
+| |_<span>menuitem</span><span>#context_reloadSelectedTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#context_toggleMuteTab</span><span></span><br>
+| |_<span>menuitem</span><span>#context_toggleMuteSelectedTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#context_pinTab</span><span></span><br>
+| |_<span>menuitem</span><span>#context_unpinTab</span><span></span><br>
+| |_<span>menuitem</span><span>#context_pinSelectedTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#context_unpinSelectedTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#context_duplicateTab</span><span></span><br>
+| |_<span>menuitem</span><span>#context_duplicateTabs</span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span>#context_selectAllTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#context_bookmarkSelectedTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#context_bookmarkTab</span><span></span><br>
+| |_<span>menu</span><span>#context_reopenInContainer</span><span></span><br>
+| | |_<span>menupopup</span><span></span><span></span><br>
+| |_<span>menu</span><span>#context_moveTabOptions</span><span></span><br>
+| | |_<span>menupopup</span><span>#moveTabOptionsMenu</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context_moveToStart</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context_moveToEnd</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context_openTabInWindow</span><span></span><br>
+| |_<span>menu</span><span>#context_sendTabToDevice</span><span>.sync-ui-item</span><br>
+| | |_<span>menupopup</span><span>#context_sendTabToDevicePopupMenu</span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span>#context_closeTabsToTheEnd</span><span></span><br>
+| |_<span>menuitem</span><span>#context_closeOtherTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#context_undoCloseTab</span><span></span><br>
+| |_<span>menuitem</span><span>#context_closeTab</span><span></span><br>
+| |_<span>menuitem</span><span>#context_closeSelectedTabs</span><span></span><br>
+|_<span>menupopup</span><span>#backForwardMenu</span><span></span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-current</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+| |_<span>menuitem</span><span></span><span>.unified-nav-back.menuitem-iconic</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-iconic-left</span><br>
+| | | |_<span>image</span><span></span><span>.menu-iconic-icon</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-text</span><br>
+| | |_<span>label</span><span></span><span>.menu-iconic-highlightable-text</span><br>
+| | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | |_<span>label</span><span></span><span>.menu-iconic-accel</span><br>
+|_<span>tooltip</span><span>#aHTMLTooltip</span><span></span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+|_<span>tooltip</span><span>#remoteBrowserTooltip</span><span></span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+|_<span>panel</span><span>#PopupAutoComplete</span><span></span><br>
+|_<span>panel</span><span>#PopupSearchAutoComplete</span><span></span><br>
+|_<span>panel</span><span>#PopupAutoCompleteRichResult</span><span></span><br>
+|_<span>panel</span><span>#DateTimePickerPanel</span><span></span><br>
+|_<span>menulist</span><span>#ContentSelectDropdown</span><span></span><br>
+| |_<span>menupopup</span><span></span><span></span><br>
+|_<span>panel</span><span>#invalid-form-popup</span><span></span><br>
+| |_<span>description</span><span></span><span></span><br>
+|_<span>panel</span><span>#editBookmarkPanel</span><span></span><br>
+| |_<span>box</span><span></span><span>.panel-header</span><br>
+| | |_<span>label</span><span>#editBookmarkPanelTitle</span><span></span><br>
+| | |_<span>toolbarbutton</span><span>#editBookmarkPanelInfoButton</span><span></span><br>
+| | | |_<span>image</span><span></span><span></span><br>
+| |_<span>html:div</span><span>#editBookmarkPanelInfoArea</span><span></span><br>
+| | |_<span>html:div</span><span>#editBookmarkPanelRecommendation</span><span></span><br>
+| | |_<span>html:div</span><span>#editBookmarkPanelFaviconContainer</span><span></span><br>
+| | | |_<span>html:img</span><span>#editBookmarkPanelFavicon</span><span></span><br>
+| | |_<span>html:div</span><span>#editBookmarkPanelImage</span><span></span><br>
+| |_<span>vbox</span><span>#editBookmarkPanelContent</span><span></span><br>
+| | |_<span>hbox</span><span>#editBMPanel_selectionCount</span><span></span><br>
+| | | |_<span>label</span><span>#editBMPanel_itemsCountText</span><span></span><br>
+| | |_<span>vbox</span><span>#editBookmarkPanelRows</span><span></span><br>
+| | | |_<span>vbox</span><span>#editBMPanel_nameRow</span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | |_<span>textbox</span><span>#editBMPanel_namePicker</span><span></span><br>
+| | | |_<span>vbox</span><span>#editBMPanel_locationRow</span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | |_<span>textbox</span><span>#editBMPanel_locationField</span><span>.uri-element</span><br>
+| | | |_<span>vbox</span><span>#editBMPanel_folderRow</span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | |_<span>hbox</span><span></span><span></span><br>
+| | | | | |_<span>menulist</span><span>#editBMPanel_folderMenuList</span><span>.folder-icon.panel-button</span><br>
+| | | | | | |_<span>hbox</span><span></span><span>.menulist-label-box</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.menulist-dropmarker</span><br>
+| | | | | | |_<span>menupopup</span><span></span><span></span><br>
+| | | | | |_<span>button</span><span>#editBMPanel_foldersExpander</span><span>.expander-down.panel-button</span><br>
+| | | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | |_<span>vbox</span><span>#editBMPanel_folderTreeRow</span><span></span><br>
+| | | | |_<span>hbox</span><span>#editBMPanel_newFolderBox</span><span></span><br>
+| | | | | |_<span>button</span><span>#editBMPanel_newFolderButton</span><span></span><br>
+| | | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | |_<span>vbox</span><span>#editBMPanel_tagsRow</span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | |_<span>hbox</span><span></span><span></span><br>
+| | | | | |_<span>textbox</span><span>#editBMPanel_tagsField</span><span></span><br>
+| | | | | |_<span>button</span><span>#editBMPanel_tagsSelectorExpander</span><span>.expander-down.panel-button</span><br>
+| | | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | |_<span>vbox</span><span>#editBMPanel_tagsSelectorRow</span><span></span><br>
+| | | | |_<span>richlistbox</span><span>#editBMPanel_tagsSelector</span><span></span><br>
+| | | |_<span>vbox</span><span>#editBMPanel_keywordRow</span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | |_<span>textbox</span><span>#editBMPanel_keywordField</span><span></span><br>
+| |_<span>vbox</span><span>#editBookmarkPanelBottomContent</span><span></span><br>
+| | |_<span>checkbox</span><span>#editBookmarkPanel_showForNewBookmarks</span><span></span><br>
+| | | |_<span>image</span><span></span><span>.checkbox-check</span><br>
+| | | |_<span>hbox</span><span></span><span>.checkbox-label-box</span><br>
+| | | | |_<span>image</span><span></span><span>.checkbox-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.checkbox-label</span><br>
+| | | | | |_<span>span</span><span></span><span>.accesskey</span><br>
+| |_<span>hbox</span><span>#editBookmarkPanelBottomButtons</span><span>.panel-footer</span><br>
+| | |_<span>button</span><span>#editBookmarkPanelDoneButton</span><span>.editBookmarkPanelBottomButton</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>button</span><span>#editBookmarkPanelRemoveButton</span><span>.editBookmarkPanelBottomButton</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+|_<span>panel</span><span>#UITourTooltip</span><span></span><br>
+| |_<span>vbox</span><span></span><span></span><br>
+| | |_<span>hbox</span><span>#UITourTooltipBody</span><span></span><br>
+| | | |_<span>image</span><span>#UITourTooltipIcon</span><span></span><br>
+| | | |_<span>vbox</span><span></span><span></span><br>
+| | | | |_<span>hbox</span><span>#UITourTooltipTitleContainer</span><span></span><br>
+| | | | | |_<span>label</span><span>#UITourTooltipTitle</span><span></span><br>
+| | | | | |_<span>toolbarbutton</span><span>#UITourTooltipClose</span><span>.close-icon</span><br>
+| | | | |_<span>description</span><span>#UITourTooltipDescription</span><span></span><br>
+| | |_<span>hbox</span><span>#UITourTooltipButtons</span><span></span><br>
+|_<span>panel</span><span>#UITourHighlightContainer</span><span></span><br>
+| |_<span>box</span><span>#UITourHighlight</span><span></span><br>
+|_<span>panel</span><span>#sidebarMenu-popup</span><span>.cui-widget-panel</span><br>
+| |_<span>toolbarbutton</span><span>#sidebar-switcher-bookmarks</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| |_<span>toolbarbutton</span><span>#sidebar-switcher-history</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| |_<span>toolbarbutton</span><span>#sidebar-switcher-tabs</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| |_<span>toolbarseparator</span><span></span><span></span><br>
+| |_<span>toolbarseparator</span><span>#sidebar-extensions-separator</span><span></span><br>
+| |_<span>toolbarbutton</span><span>#sidebar-reverse-position</span><span>.subviewbutton</span><br>
+| |_<span>toolbarseparator</span><span></span><span></span><br>
+| |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+|_<span>menupopup</span><span>#toolbar-context-menu</span><span></span><br>
+| |_<span>menuitem</span><span></span><span>.customize-context-manageExtension</span><br>
+| |_<span>menuitem</span><span></span><span>.customize-context-removeExtension</span><br>
+| |_<span>menuitem</span><span></span><span>.customize-context-reportExtension</span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span></span><span>.customize-context-moveToPanel</span><br>
+| |_<span>menuitem</span><span>#toolbar-context-autohide-downloads-button</span><span></span><br>
+| |_<span>menuitem</span><span></span><span>.customize-context-removeFromToolbar</span><br>
+| |_<span>menuitem</span><span>#toolbar-context-reloadSelectedTab</span><span></span><br>
+| |_<span>menuitem</span><span>#toolbar-context-reloadSelectedTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#toolbar-context-bookmarkSelectedTab</span><span></span><br>
+| |_<span>menuitem</span><span>#toolbar-context-bookmarkSelectedTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#toolbar-context-selectAllTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#toolbar-context-undoCloseTab</span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuseparator</span><span>#viewToolbarsMenuSeparator</span><span></span><br>
+| |_<span>menuitem</span><span></span><span>.viewCustomizeToolbar</span><br>
+|_<span>menupopup</span><span>#blockedPopupOptions</span><span></span><br>
+| |_<span>menuitem</span><span>#blockedPopupAllowSite</span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuitem</span><span>#blockedPopupDontShowMessage</span><span></span><br>
+| |_<span>menuseparator</span><span>#blockedPopupsSeparator</span><span></span><br>
+|_<span>menupopup</span><span>#autohide-context</span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+|_<span>menupopup</span><span>#contentAreaContextMenu</span><span></span><br>
+| |_<span>menugroup</span><span>#context-navigation</span><span></span><br>
+| | |_<span>menuitem</span><span>#context-back</span><span>.menuitem-iconic</span><br>
+| | |_<span>menuitem</span><span>#context-forward</span><span>.menuitem-iconic</span><br>
+| | |_<span>menuitem</span><span>#context-reload</span><span>.menuitem-iconic</span><br>
+| | |_<span>menuitem</span><span>#context-stop</span><span>.menuitem-iconic</span><br>
+| | |_<span>menuitem</span><span>#context-bookmarkpage</span><span>.menuitem-iconic</span><br>
+| |_<span>menuseparator</span><span>#context-sep-navigation</span><span></span><br>
+| |_<span>menuseparator</span><span>#page-menu-separator</span><span></span><br>
+| |_<span>menuitem</span><span>#spell-no-suggestions</span><span></span><br>
+| |_<span>menuitem</span><span>#spell-add-to-dictionary</span><span></span><br>
+| |_<span>menuitem</span><span>#spell-undo-add-to-dictionary</span><span></span><br>
+| |_<span>menuseparator</span><span>#spell-suggestions-separator</span><span></span><br>
+| |_<span>menuitem</span><span>#context-openlinkincurrent</span><span></span><br>
+| |_<span>menuitem</span><span>#context-openlinkincontainertab</span><span></span><br>
+| |_<span>menuitem</span><span>#context-openlinkintab</span><span></span><br>
+| |_<span>menu</span><span>#context-openlinkinusercontext-menu</span><span></span><br>
+| | |_<span>menupopup</span><span></span><span></span><br>
+| |_<span>menuitem</span><span>#context-openlink</span><span></span><br>
+| |_<span>menuitem</span><span>#context-openlinkprivate</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-open</span><span></span><br>
+| |_<span>menuitem</span><span>#context-bookmarklink</span><span></span><br>
+| |_<span>menuitem</span><span>#context-savelink</span><span></span><br>
+| |_<span>menuitem</span><span>#context-savelinktopocket</span><span></span><br>
+| |_<span>menuitem</span><span>#context-copyemail</span><span></span><br>
+| |_<span>menuitem</span><span>#context-copylink</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-copylink</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-play</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-pause</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-mute</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-unmute</span><span></span><br>
+| |_<span>menu</span><span>#context-media-playbackrate</span><span></span><br>
+| | |_<span>menupopup</span><span></span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-media-playbackrate-050x</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-media-playbackrate-100x</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-media-playbackrate-125x</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-media-playbackrate-150x</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-media-playbackrate-200x</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-loop</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-showcontrols</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-hidecontrols</span><span></span><br>
+| |_<span>menuitem</span><span>#context-video-fullscreen</span><span></span><br>
+| |_<span>menuitem</span><span>#context-leave-dom-fullscreen</span><span></span><br>
+| |_<span>menuitem</span><span>#context-video-pictureinpicture</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-media-sep-commands</span><span></span><br>
+| |_<span>menuitem</span><span>#context-reloadimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewvideo</span><span></span><br>
+| |_<span>menuitem</span><span>#context-copyimage-contents</span><span></span><br>
+| |_<span>menuitem</span><span>#context-copyimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-copyvideourl</span><span></span><br>
+| |_<span>menuitem</span><span>#context-copyaudiourl</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-copyimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-saveimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-sendimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-setDesktopBackground</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewimageinfo</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewimagedesc</span><span></span><br>
+| |_<span>menuitem</span><span>#context-savevideo</span><span></span><br>
+| |_<span>menuitem</span><span>#context-saveaudio</span><span></span><br>
+| |_<span>menuitem</span><span>#context-video-saveimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-sendvideo</span><span></span><br>
+| |_<span>menuitem</span><span>#context-sendaudio</span><span></span><br>
+| |_<span>menuitem</span><span>#context-ctp-play</span><span></span><br>
+| |_<span>menuitem</span><span>#context-ctp-hide</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-ctp</span><span></span><br>
+| |_<span>menuitem</span><span>#context-savepage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-pocket</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-sendpagetodevice</span><span>.sync-ui-item</span><br>
+| |_<span>menu</span><span>#context-sendpagetodevice</span><span>.sync-ui-item</span><br>
+| | |_<span>menupopup</span><span>#context-sendpagetodevice-popup</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-viewbgimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewbgimage</span><span></span><br>
+| |_<span>menuitem</span><span>#context-undo</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-undo</span><span></span><br>
+| |_<span>menuitem</span><span>#context-cut</span><span></span><br>
+| |_<span>menuitem</span><span>#context-copy</span><span></span><br>
+| |_<span>menuitem</span><span>#context-paste</span><span></span><br>
+| |_<span>menuitem</span><span>#context-delete</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-paste</span><span></span><br>
+| |_<span>menuitem</span><span>#context-selectall</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-selectall</span><span></span><br>
+| |_<span>menuitem</span><span>#context-keywordfield</span><span></span><br>
+| |_<span>menuitem</span><span>#context-searchselect</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-sendlinktodevice</span><span>.sync-ui-item</span><br>
+| |_<span>menu</span><span>#context-sendlinktodevice</span><span>.sync-ui-item</span><br>
+| | |_<span>menupopup</span><span>#context-sendlinktodevice-popup</span><span></span><br>
+| |_<span>menuseparator</span><span>#frame-sep</span><span></span><br>
+| |_<span>menu</span><span>#frame</span><span></span><br>
+| | |_<span>menupopup</span><span></span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-showonlythisframe</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-openframeintab</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-openframe</span><span></span><br>
+| | | |_<span>menuseparator</span><span>#open-frame-sep</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-reloadframe</span><span></span><br>
+| | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-bookmarkframe</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-saveframe</span><span></span><br>
+| | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-printframe</span><span></span><br>
+| | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-viewframesource</span><span></span><br>
+| | | |_<span>menuitem</span><span>#context-viewframeinfo</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewpartialsource-selection</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-viewsource</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewsource</span><span></span><br>
+| |_<span>menuitem</span><span>#context-viewinfo</span><span></span><br>
+| |_<span>menuseparator</span><span>#spell-separator</span><span></span><br>
+| |_<span>menuitem</span><span>#spell-check-enabled</span><span></span><br>
+| |_<span>menuitem</span><span>#spell-add-dictionaries-main</span><span></span><br>
+| |_<span>menu</span><span>#spell-dictionaries</span><span></span><br>
+| | |_<span>menupopup</span><span>#spell-dictionaries-menu</span><span></span><br>
+| | | |_<span>menuseparator</span><span>#spell-language-separator</span><span></span><br>
+| | | |_<span>menuitem</span><span>#spell-add-dictionaries</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-sep-bidi</span><span></span><br>
+| |_<span>menuitem</span><span>#context-bidi-text-direction-toggle</span><span></span><br>
+| |_<span>menuitem</span><span>#context-bidi-page-direction-toggle</span><span></span><br>
+| |_<span>menuseparator</span><span>#fill-login-separator</span><span></span><br>
+| |_<span>menu</span><span>#fill-login</span><span></span><br>
+| | |_<span>menupopup</span><span>#fill-login-popup</span><span></span><br>
+| | | |_<span>menuitem</span><span>#fill-login-no-logins</span><span></span><br>
+| | | |_<span>menuseparator</span><span>#saved-logins-separator</span><span></span><br>
+| | | |_<span>menuitem</span><span>#fill-login-saved-passwords</span><span></span><br>
+| |_<span>menuseparator</span><span>#inspect-separator</span><span></span><br>
+| |_<span>menuitem</span><span>#context-inspect</span><span></span><br>
+| |_<span>menuitem</span><span>#context-inspect-a11y</span><span></span><br>
+| |_<span>menuseparator</span><span>#context-media-eme-separator</span><span></span><br>
+| |_<span>menuitem</span><span>#context-media-eme-learnmore</span><span>.menuitem-iconic</span><br>
+|_<span>menupopup</span><span>#placesContext</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_open</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_open:newtab</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_openContainer:tabs</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_openLinks:tabs</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_open:newwindow</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_open:newprivatewindow</span><span></span><br>
+| |_<span>menuseparator</span><span>#placesContext_openSeparator</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_new:bookmark</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_new:folder</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_new:separator</span><span></span><br>
+| |_<span>menuseparator</span><span>#placesContext_newSeparator</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_createBookmark</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_cut</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_copy</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_paste</span><span></span><br>
+| |_<span>menuseparator</span><span>#placesContext_editSeparator</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_delete</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_delete_history</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_deleteHost</span><span></span><br>
+| |_<span>menuseparator</span><span>#placesContext_deleteSeparator</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_sortBy:name</span><span></span><br>
+| |_<span>menuseparator</span><span>#placesContext_sortSeparator</span><span></span><br>
+| |_<span>menuitem</span><span>#placesContext_show:info</span><span></span><br>
+|_<span>panel</span><span>#ctrlTab-panel</span><span></span><br>
+| |_<span>hbox</span><span>#ctrlTab-previews</span><span></span><br>
+| | |_<span>button</span><span></span><span>.ctrlTab-preview</span><br>
+| | | |_<span>vbox</span><span></span><span>.ctrlTab-preview-inner</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-canvas</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-favicon-container</span><br>
+| | | | | |_<span>image</span><span></span><span>.ctrlTab-favicon</span><br>
+| | | | |_<span>label</span><span></span><span>.ctrlTab-label.plain</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>button</span><span></span><span>.ctrlTab-preview</span><br>
+| | | |_<span>vbox</span><span></span><span>.ctrlTab-preview-inner</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-canvas</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-favicon-container</span><br>
+| | | | | |_<span>image</span><span></span><span>.ctrlTab-favicon</span><br>
+| | | | |_<span>label</span><span></span><span>.ctrlTab-label.plain</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>button</span><span></span><span>.ctrlTab-preview</span><br>
+| | | |_<span>vbox</span><span></span><span>.ctrlTab-preview-inner</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-canvas</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-favicon-container</span><br>
+| | | | | |_<span>image</span><span></span><span>.ctrlTab-favicon</span><br>
+| | | | |_<span>label</span><span></span><span>.ctrlTab-label.plain</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>button</span><span></span><span>.ctrlTab-preview</span><br>
+| | | |_<span>vbox</span><span></span><span>.ctrlTab-preview-inner</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-canvas</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-favicon-container</span><br>
+| | | | | |_<span>image</span><span></span><span>.ctrlTab-favicon</span><br>
+| | | | |_<span>label</span><span></span><span>.ctrlTab-label.plain</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>button</span><span></span><span>.ctrlTab-preview</span><br>
+| | | |_<span>vbox</span><span></span><span>.ctrlTab-preview-inner</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-canvas</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-favicon-container</span><br>
+| | | | | |_<span>image</span><span></span><span>.ctrlTab-favicon</span><br>
+| | | | |_<span>label</span><span></span><span>.ctrlTab-label.plain</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>button</span><span></span><span>.ctrlTab-preview</span><br>
+| | | |_<span>vbox</span><span></span><span>.ctrlTab-preview-inner</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-canvas</span><br>
+| | | | |_<span>hbox</span><span></span><span>.ctrlTab-favicon-container</span><br>
+| | | | | |_<span>image</span><span></span><span>.ctrlTab-favicon</span><br>
+| | | | |_<span>label</span><span></span><span>.ctrlTab-label.plain</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| |_<span>hbox</span><span>#ctrlTab-showAll-container</span><span></span><br>
+| | |_<span>button</span><span>#ctrlTab-showAll</span><span>.ctrlTab-preview</span><br>
+| | | |_<span>vbox</span><span></span><span>.ctrlTab-preview-inner</span><br>
+| | | | |_<span>label</span><span></span><span>.ctrlTab-label.plain</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+|_<span>panel</span><span>#pageActionPanel</span><span>.cui-widget-panel</span><br>
+| |_<span>panelmultiview</span><span>#pageActionPanelMultiView</span><span></span><br>
+| | |_<span>panelview</span><span>#pageActionPanelMainView</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+|_<span>panel</span><span>#confirmation-hint</span><span></span><br>
+| |_<span>hbox</span><span>#confirmation-hint-checkmark-animation-container</span><span></span><br>
+| | |_<span>image</span><span>#confirmation-hint-checkmark-image</span><span></span><br>
+| |_<span>vbox</span><span>#confirmation-hint-message-container</span><span></span><br>
+| | |_<span>label</span><span>#confirmation-hint-message</span><span></span><br>
+| | |_<span>label</span><span>#confirmation-hint-description</span><span></span><br>
+|_<span>menupopup</span><span>#pageActionContextMenu</span><span></span><br>
+| |_<span>menuitem</span><span></span><span>.pageActionContextMenuItem.builtInUnpinned</span><br>
+| |_<span>menuitem</span><span></span><span>.pageActionContextMenuItem.builtInPinned</span><br>
+| |_<span>menuitem</span><span></span><span>.pageActionContextMenuItem.extensionUnpinned</span><br>
+| |_<span>menuitem</span><span></span><span>.pageActionContextMenuItem.extensionPinned</span><br>
+| |_<span>menuseparator</span><span></span><span>.pageActionContextMenuItem.extensionPinned</span><br>
+| |_<span>menuitem</span><span></span><span>.pageActionContextMenuItem.extensionPinned</span><br>
+|_<span>tooltip</span><span>#bhTooltip</span><span></span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+| |_<span>vbox</span><span>#bhTooltipTextBox</span><span></span><br>
+| | |_<span>description</span><span>#bhtTitleText</span><span>.tooltip-label</span><br>
+| | |_<span>description</span><span>#bhtUrlText</span><span>.tooltip-label.uri-element</span><br>
+|_<span>tooltip</span><span>#tabbrowser-tab-tooltip</span><span></span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+|_<span>tooltip</span><span>#back-button-tooltip</span><span></span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+|_<span>tooltip</span><span>#forward-button-tooltip</span><span></span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+|_<span>panel</span><span>#notification-popup</span><span></span><br>
+|_<span>popupnotification</span><span>#webRTC-shareDevices-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span>#webRTC-selectCamera</span><span></span><br>
+| | |_<span>label</span><span></span><span></span><br>
+| | |_<span>menulist</span><span>#webRTC-selectCamera-menulist</span><span></span><br>
+| | | |_<span>hbox</span><span></span><span>.menulist-label-box</span><br>
+| | | | |_<span>image</span><span></span><span>.menulist-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.menulist-label</span><br>
+| | | | |_<span>label</span><span></span><span>.menulist-highlightable-label</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.menulist-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | |_<span>menupopup</span><span>#webRTC-selectCamera-menupopup</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span>#webRTC-selectWindowOrScreen</span><span></span><br>
+| | |_<span>label</span><span>#webRTC-selectWindow-label</span><span></span><br>
+| | |_<span>menulist</span><span>#webRTC-selectWindow-menulist</span><span></span><br>
+| | | |_<span>hbox</span><span></span><span>.menulist-label-box</span><br>
+| | | | |_<span>image</span><span></span><span>.menulist-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.menulist-label</span><br>
+| | | | |_<span>label</span><span></span><span>.menulist-highlightable-label</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.menulist-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | |_<span>menupopup</span><span>#webRTC-selectWindow-menupopup</span><span></span><br>
+| | |_<span>description</span><span>#webRTC-all-windows-shared</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span>#webRTC-preview</span><span></span><br>
+| | |_<span>html:video</span><span>#webRTC-previewVideo</span><span></span><br>
+| | |_<span>vbox</span><span>#webRTC-previewWarningBox</span><span></span><br>
+| | | |_<span>spacer</span><span></span><span></span><br>
+| | | |_<span>description</span><span>#webRTC-previewWarning</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span>#webRTC-selectMicrophone</span><span></span><br>
+| | |_<span>label</span><span></span><span></span><br>
+| | |_<span>menulist</span><span>#webRTC-selectMicrophone-menulist</span><span></span><br>
+| | | |_<span>hbox</span><span></span><span>.menulist-label-box</span><br>
+| | | | |_<span>image</span><span></span><span>.menulist-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.menulist-label</span><br>
+| | | | |_<span>label</span><span></span><span>.menulist-highlightable-label</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.menulist-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | |_<span>menupopup</span><span>#webRTC-selectMicrophone-menupopup</span><span></span><br>
+|_<span>popupnotification</span><span>#servicesInstall-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span></span><span></span><br>
+|_<span>popupnotification</span><span>#password-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span></span><span></span><br>
+| | |_<span>textbox</span><span>#password-notification-username</span><span></span><br>
+| | |_<span>textbox</span><span>#password-notification-password</span><span></span><br>
+| | |_<span>checkbox</span><span>#password-notification-visibilityToggle</span><span></span><br>
+| | | |_<span>image</span><span></span><span>.checkbox-check</span><br>
+| | | |_<span>hbox</span><span></span><span>.checkbox-label-box</span><br>
+| | | | |_<span>image</span><span></span><span>.checkbox-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.checkbox-label</span><br>
+|_<span>popupnotification</span><span>#addon-progress-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span></span><span></span><br>
+| | |_<span>html:progress</span><span>#addon-progress-notification-progressmeter</span><span></span><br>
+| | |_<span>label</span><span>#addon-progress-notification-progresstext</span><span></span><br>
+|_<span>popupnotification</span><span>#addon-install-confirmation-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span>#addon-install-confirmation-content</span><span></span><br>
+|_<span>popupnotification</span><span>#addon-webext-permissions-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span></span><span>.addon-webext-perm-notification-content</span><br>
+| | |_<span>description</span><span>#addon-webext-perm-text</span><span>.addon-webext-perm-text</span><br>
+| | |_<span>label</span><span>#addon-webext-perm-intro</span><span>.addon-webext-perm-text</span><br>
+| | |_<span>html:ul</span><span>#addon-webext-perm-list</span><span>.addon-webext-perm-list</span><br>
+| | |_<span>hbox</span><span></span><span></span><br>
+| | | |_<span>label</span><span>#addon-webext-perm-info</span><span>.popup-notification-learnmore-link.text-link</span><br>
+|_<span>popupnotification</span><span>#addon-install-blocked-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span>#addon-install-blocked-content</span><span></span><br>
+| | |_<span>description</span><span>#addon-install-blocked-message</span><span>.popup-notification-description</span><br>
+| | |_<span>hbox</span><span></span><span></span><br>
+| | | |_<span>label</span><span>#addon-install-blocked-info</span><span>.popup-notification-learnmore-link.text-link</span><br>
+|_<span>popupnotification</span><span>#contextual-feature-recommendation-notification</span><span></span><br>
+| |_<span>popupnotificationheader</span><span>#cfr-notification-header</span><span></span><br>
+| | |_<span>stack</span><span>#cfr-notification-header-stack</span><span></span><br>
+| | | |_<span>description</span><span>#cfr-notification-header-label</span><span></span><br>
+| | | |_<span>label</span><span>#cfr-notification-header-link</span><span>.text-link</span><br>
+| | | | |_<span>xul:image</span><span>#cfr-notification-header-image</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span></span><span></span><br>
+| | |_<span>description</span><span>#cfr-notification-author</span><span></span><br>
+| |_<span>popupnotificationfooter</span><span>#cfr-notification-footer</span><span></span><br>
+| | |_<span>vbox</span><span>#cfr-notification-footer-text-and-addon-info</span><span></span><br>
+| | | |_<span>description</span><span>#cfr-notification-footer-text</span><span></span><br>
+| | | |_<span>hbox</span><span>#cfr-notification-footer-addon-info</span><span></span><br>
+| | | | |_<span>hbox</span><span>#cfr-notification-footer-filled-stars</span><span></span><br>
+| | | | |_<span>hbox</span><span>#cfr-notification-footer-empty-stars</span><span></span><br>
+| | | | |_<span>label</span><span>#cfr-notification-footer-users</span><span></span><br>
+| | | | |_<span>spacer</span><span>#cfr-notification-footer-spacer</span><span></span><br>
+| | | | |_<span>label</span><span>#cfr-notification-footer-learn-more-link</span><span>.text-link</span><br>
+|_<span>popupnotification</span><span>#storage-access-notification</span><span></span><br>
+| |_<span>popupnotificationcontent</span><span></span><span>.storage-access-notification-content</span><br>
+| | |_<span>xul:vbox</span><span></span><span></span><br>
+| | | |_<span>xul:description</span><span></span><span>.storage-access-perm-text</span><br>
+| | | | |_<span>html:span</span><span>#storage-access-perm-label</span><span></span><br>
+| | | | |_<span>html:a</span><span>#storage-access-perm-learnmore</span><span>.text-link.popup-notification-learnmore-link</span><br>
+| | | | |_<span>html:span</span><span>#storage-access-perm-endlabel</span><span></span><br>
+|_<span>panel</span><span>#widget-overflow</span><span></span><br>
+| |_<span>panelmultiview</span><span></span><span></span><br>
+| | |_<span>panelview</span><span>#widget-overflow-mainView</span><span></span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>vbox</span><span>#widget-overflow-list</span><span>.widget-overflow-list</span><br>
+| | | | |_<span>toolbarseparator</span><span>#widget-overflow-fixed-separator</span><span></span><br>
+| | | | |_<span>vbox</span><span>#widget-overflow-fixed-list</span><span>.widget-overflow-list.customization-target</span><br>
+| | | | | |_<span>toolbarbutton</span><span>#fxa-toolbar-menu-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.toolbarbutton-badge-stack</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | |_<span>toolbarbutton</span><span>#overflowMenu-customize-button</span><span>.subviewbutton.panel-subview-footer</span><br>
+| |_<span>menupopup</span><span>#customizationPanelItemContextMenu</span><span></span><br>
+| | |_<span>menuitem</span><span></span><span>.customize-context-manageExtension</span><br>
+| | |_<span>menuitem</span><span></span><span>.customize-context-removeExtension</span><br>
+| | |_<span>menuitem</span><span></span><span>.customize-context-reportExtension</span><br>
+| | |_<span>menuseparator</span><span></span><span></span><br>
+| | |_<span>menuitem</span><span>#customizationPanelItemContextMenuPin</span><span>.customize-context-moveToPanel</span><br>
+| | |_<span>menuitem</span><span>#customizationPanelItemContextMenuUnpin</span><span>.customize-context-moveToToolbar</span><br>
+| | |_<span>menuitem</span><span></span><span>.customize-context-removeFromPanel</span><br>
+| | |_<span>menuseparator</span><span></span><span></span><br>
+| | |_<span>menuitem</span><span></span><span>.viewCustomizeToolbar</span><br>
+|_<span>panel</span><span>#panic-button-success-notification</span><span></span><br>
+| |_<span>hbox</span><span>#panic-button-success-header</span><span></span><br>
+| | |_<span>image</span><span>#panic-button-success-icon</span><span></span><br>
+| | |_<span>vbox</span><span></span><span></span><br>
+| | | |_<span>description</span><span></span><span></span><br>
+| | | |_<span>description</span><span></span><span></span><br>
+| |_<span>button</span><span>#panic-button-success-closebutton</span><span></span><br>
+| | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | |_<span>label</span><span></span><span>.button-text</span><br>
+|_<span>panel</span><span>#appMenu-notification-popup</span><span>.popup-notification-panel</span><br>
+| |_<span>popupnotification</span><span>#appMenu-update-available-notification</span><span></span><br>
+| | |_<span>popupnotificationcontent</span><span>#update-available-notification-content</span><span></span><br>
+| | | |_<span>description</span><span>#update-available-description</span><span></span><br>
+| | | |_<span>label</span><span>#update-available-whats-new</span><span>.text-link</span><br>
+| |_<span>popupnotification</span><span>#appMenu-update-manual-notification</span><span></span><br>
+| | |_<span>popupnotificationcontent</span><span>#update-manual-notification-content</span><span></span><br>
+| | | |_<span>description</span><span>#update-manual-description</span><span></span><br>
+| | | |_<span>label</span><span>#update-manual-whats-new</span><span>.text-link</span><br>
+| |_<span>popupnotification</span><span>#appMenu-update-unsupported-notification</span><span></span><br>
+| | |_<span>popupnotificationcontent</span><span>#update-unsupported-notification-content</span><span></span><br>
+| | | |_<span>description</span><span>#update-unsupported-description</span><span></span><br>
+| |_<span>popupnotification</span><span>#appMenu-update-restart-notification</span><span></span><br>
+| | |_<span>popupnotificationcontent</span><span>#update-restart-notification-content</span><span></span><br>
+| | | |_<span>description</span><span>#update-restart-description</span><span></span><br>
+| |_<span>popupnotification</span><span>#appMenu-addon-installed-notification</span><span></span><br>
+| | |_<span>popupnotificationcontent</span><span></span><span>.addon-installed-notification-content</span><br>
+| | | |_<span>description</span><span>#addon-install-description</span><span></span><br>
+| | | | |_<span>image</span><span></span><span>.addon-addon-icon</span><br>
+| | | | |_<span>image</span><span></span><span>.addon-toolbar-icon</span><br>
+| | | |_<span>checkbox</span><span>#addon-incognito-checkbox</span><span></span><br>
+| | | | |_<span>image</span><span></span><span>.checkbox-check</span><br>
+| | | | |_<span>hbox</span><span></span><span>.checkbox-label-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.checkbox-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.checkbox-label</span><br>
+| |_<span>popupnotification</span><span>#appMenu-addon-private-browsing-notification</span><span></span><br>
+| | |_<span>popupnotificationcontent</span><span></span><span>.addon-private-browsing-notification-content</span><br>
+| | | |_<span>description</span><span>#addon-private-browsing-description</span><span></span><br>
+| | | |_<span>label</span><span>#addon-private-browsing-learn-more</span><span>.text-link</span><br>
+|_<span>menupopup</span><span>#customizationPaletteItemContextMenu</span><span></span><br>
+| |_<span>menuitem</span><span></span><span>.customize-context-addToToolbar</span><br>
+| |_<span>menuitem</span><span></span><span>.customize-context-addToPanel</span><br>
+|_<span>menupopup</span><span>#customizationPanelContextMenu</span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+|_<span>panel</span><span>#appMenu-popup</span><span>.cui-widget-panel</span><br>
+| |_<span>panelmultiview</span><span>#appMenu-multiView</span><span></span><br>
+| | |_<span>box</span><span></span><span>.panel-viewcontainer</span><br>
+| | | |_<span>box</span><span></span><span>.panel-viewstack</span><br>
+| | | | |_<span>panelview</span><span>#appMenu-mainView</span><span>.PanelUI-subView</span><br>
+| | | | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | | | |_<span>vbox</span><span>#appMenu-addon-banners</span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.panel-banner-item</span><br>
+| | | | | | |_<span>toolbaritem</span><span>#appMenu-fxa-container</span><span>.toolbaritem-combined-buttons.sync-ui-item</span><br>
+| | | | | | |_<span>toolbarseparator</span><span></span><span>.sync-ui-item</span><br>
+| | | | | | |_<span>toolbaritem</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarseparator</span><span>#appMenu-tp-separator</span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-new-window-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-private-window-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenuRestoreLastSession</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbaritem</span><span>#appMenu-zoom-controls</span><span>.toolbaritem-combined-buttons</span><br>
+| | | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbaritem</span><span>#appMenu-edit-controls</span><span>.toolbaritem-combined-buttons</span><br>
+| | | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-library-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-logins-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-addons-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-preferences-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-customize-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-open-file-button</span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-save-file-button</span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-print-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-find-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-more-button</span><span>.subviewbutton.subviewbutton-nav</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-developer-button</span><span>.subviewbutton.subviewbutton-nav</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-help-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#appMenu-quit-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | |_<span>panelview</span><span>#PanelUI-developer</span><span>.PanelUI-subView</span><br>
+| | | | | |_<span>box</span><span></span><span>.panel-header</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>label</span><span></span><span></span><br>
+| | | | | |_<span>vbox</span><span>#PanelUI-developerItems</span><span>.panel-subview-body</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | |_<span>box</span><span></span><span>.panel-viewcontainer.offscreen</span><br>
+| | | |_<span>box</span><span></span><span>.panel-viewstack</span><br>
+| | |_<span>panelview</span><span>#PanelUI-history</span><span></span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenuViewHistorySidebar</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>observes</span><span></span><span></span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenuClearRecentHistory</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenuRecentlyClosedTabs</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenuRecentlyClosedWindows</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | |_<span>label</span><span></span><span>.subview-subheader</span><br>
+| | | | |_<span>toolbaritem</span><span>#appMenu_historyMenu</span><span></span><br>
+| | | |_<span>toolbarbutton</span><span>#PanelUI-historyMore</span><span>.panel-subview-footer.subviewbutton</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>panelview</span><span>#appMenu-library-recentlyClosedTabs</span><span></span><br>
+| | |_<span>panelview</span><span>#appMenu-library-recentlyClosedWindows</span><span></span><br>
+| | |_<span>panelview</span><span>#PanelUI-remotetabs</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>vbox</span><span>#PanelUI-remotetabs-main</span><span></span><br>
+| | | | | |_<span>vbox</span><span>#PanelUI-remotetabs-buttons</span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#PanelUI-remotetabs-view-sidebar</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#PanelUI-remotetabs-view-managedevices</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#PanelUI-remotetabs-syncnow</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>menuseparator</span><span>#PanelUI-remotetabs-separator</span><span></span><br>
+| | | | | |_<span>deck</span><span>#PanelUI-remotetabs-deck</span><span></span><br>
+| | | | | | |_<span>vbox</span><span>#PanelUI-remotetabs-tabspane</span><span></span><br>
+| | | | | | |_<span>hbox</span><span>#PanelUI-remotetabs-tabsdisabledpane</span><span></span><br>
+| | | | | | |_<span>vbox</span><span>#PanelUI-remotetabs-fetching</span><span></span><br>
+| | | | | | |_<span>hbox</span><span>#PanelUI-remotetabs-nodevicespane</span><span></span><br>
+| | | | |_<span>hbox</span><span></span><span></span><br>
+| | | | | |_<span>vbox</span><span>#PanelUI-remotetabs-setupsync</span><span>.PanelUI-remotetabs-instruction-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.fxaSyncIllustration</span><br>
+| | | | | | |_<span>label</span><span></span><span>.PanelUI-remotetabs-instruction-label</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.PanelUI-remotetabs-button</span><br>
+| | | | | |_<span>vbox</span><span>#PanelUI-remotetabs-reauthsync</span><span>.PanelUI-remotetabs-instruction-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.fxaSyncIllustrationIssue</span><br>
+| | | | | | |_<span>label</span><span></span><span>.PanelUI-remotetabs-instruction-label</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.PanelUI-remotetabs-button</span><br>
+| | | | | |_<span>vbox</span><span>#PanelUI-remotetabs-unverified</span><span>.PanelUI-remotetabs-instruction-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.fxaSyncIllustrationIssue</span><br>
+| | | | | | |_<span>label</span><span></span><span>.PanelUI-remotetabs-instruction-label</span><br>
+| | | | | | |_<span>toolbarbutton</span><span></span><span>.PanelUI-remotetabs-button</span><br>
+| | |_<span>panelview</span><span>#PanelUI-bookmarks</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#panelMenuBookmarkThisPage</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#panelMenu_bookmarkingTools</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#panelMenu_searchBookmarks</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | |_<span>label</span><span>#panelMenu_recentBookmarks</span><span>.subview-subheader</span><br>
+| | | | |_<span>toolbaritem</span><span>#panelMenu_bookmarksMenu</span><span></span><br>
+| | | |_<span>toolbarbutton</span><span>#panelMenu_showAllBookmarks</span><span>.subviewbutton.panel-subview-footer</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>panelview</span><span>#PanelUI-containers</span><span></span><br>
+| | | |_<span>vbox</span><span>#PanelUI-containersItems</span><span></span><br>
+| | |_<span>panelview</span><span>#PanelUI-helpView</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span>#PanelUI-helpItems</span><span>.panel-subview-body</span><br>
+| | |_<span>panelview</span><span>#PanelUI-profiler</span><span></span><br>
+| | | |_<span>iframe</span><span>#PanelUI-profilerIframe</span><span></span><br>
+| | |_<span>panelview</span><span>#PanelUI-characterEncodingView</span><span></span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>vbox</span><span>#PanelUI-characterEncodingView-pinned</span><span>.PanelUI-characterEncodingView-list</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | |_<span>vbox</span><span>#PanelUI-characterEncodingView-charsets</span><span>.PanelUI-characterEncodingView-list</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | |_<span>vbox</span><span></span><span></span><br>
+| | | | | |_<span>label</span><span>#PanelUI-characterEncodingView-autodetect-label</span><span></span><br>
+| | | | | |_<span>vbox</span><span>#PanelUI-characterEncodingView-autodetect</span><span>.PanelUI-characterEncodingView-list</span><br>
+| | |_<span>panelview</span><span>#PanelUI-panicView</span><span></span><br>
+| | |_<span>panelview</span><span>#appMenu-moreView</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-taskmanager-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-characterencoding-button</span><span>.subviewbutton.subviewbutton-nav</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-workoffline-button</span><span>.subviewbutton</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>panelview</span><span>#appMenu-libraryView</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-library-bookmarks-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-library-pocket-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-library-history-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-library-downloads-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-library-remotetabs-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | |_<span>label</span><span></span><span>.subview-subheader</span><br>
+| | | | |_<span>toolbaritem</span><span>#appMenu-library-recentHighlights</span><span></span><br>
+| | |_<span>panelview</span><span>#PanelUI-fxa</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>vbox</span><span>#PanelUI-fxa-signin</span><span></span><br>
+| | | | | |_<span>image</span><span></span><span>.fxaChooseWhatToSyncDevices</span><br>
+| | | | | |_<span>label</span><span></span><span>.PanelUI-fxa-signin-instruction-callout</span><br>
+| | | | | |_<span>label</span><span></span><span>.PanelUI-fxa-signin-instruction-label</span><br>
+| | | | | |_<span>toolbarbutton</span><span></span><span>.PanelUI-fxa-signin-button</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>vbox</span><span>#PanelUI-fxa-unverified</span><span>.PanelUI-fxa-unverified-instruction-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.fxaGraphicMail</span><br>
+| | | | | |_<span>label</span><span></span><span>.PanelUI-fxa-signin-instruction-callout</span><br>
+| | | | | |_<span>label</span><span></span><span>.PanelUI-fxa-signin-instruction-label</span><br>
+| | | | | |_<span>toolbarbutton</span><span></span><span>.PanelUI-fxa-signin-button</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>vbox</span><span>#PanelUI-fxa-menu</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.fxa-avatar-subpanel</span><br>
+| | | | | | |_<span>image</span><span>#fxa-menu-avatar</span><span></span><br>
+| | | | | | |_<span>vbox</span><span></span><span></span><br>
+| | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | |_<span>toolbarbutton</span><span>#PanelUI-fxa-menu-sendtab-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>toolbarbutton</span><span>#PanelUI-fxa-menu-remotetabs-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>toolbarbutton</span><span>#PanelUI-fxa-menu-view-sidebar</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>observes</span><span></span><span></span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | | |_<span>toolbarbutton</span><span>#PanelUI-fxa-menu-syncnow-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | |_<span>panelview</span><span>#PanelUI-sendTabToDevice</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#PanelUI-sendTabToDevice-syncingDevices</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>panelview</span><span>#PanelUI-bookmarkingTools</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#panelMenu_toggleBookmarksMenu</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#panelMenu_viewBookmarksSidebar</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>observes</span><span></span><span></span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span>#panelMenu_viewBookmarksToolbar</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+|_<span>panel</span><span>#downloads-button-autohide-panel</span><span></span><br>
+| |_<span>checkbox</span><span>#downloads-button-autohide-checkbox</span><span></span><br>
+| | |_<span>image</span><span></span><span>.checkbox-check</span><br>
+| | |_<span>hbox</span><span></span><span>.checkbox-label-box</span><br>
+| | | |_<span>image</span><span></span><span>.checkbox-icon</span><br>
+| | | |_<span>label</span><span></span><span>.checkbox-label</span><br>
+|_<span>panel</span><span>#extension-notification-panel</span><span></span><br>
+| |_<span>popupnotification</span><span>#extension-new-tab-notification</span><span>.extension-controlled-notification</span><br>
+| | |_<span>popupnotificationcontent</span><span></span><span></span><br>
+| | | |_<span>description</span><span>#extension-new-tab-notification-description</span><span></span><br>
+| |_<span>popupnotification</span><span>#extension-homepage-notification</span><span>.extension-controlled-notification</span><br>
+| | |_<span>popupnotificationcontent</span><span></span><span></span><br>
+| | | |_<span>description</span><span>#extension-homepage-notification-description</span><span></span><br>
+| |_<span>popupnotification</span><span>#extension-tab-hide-notification</span><span>.extension-controlled-notification</span><br>
+| | |_<span>popupnotificationcontent</span><span></span><span></span><br>
+| | | |_<span>description</span><span>#extension-tab-hide-notification-description</span><span></span><br>
+|_<span>panel</span><span>#identity-popup</span><span></span><br>
+| |_<span>panelmultiview</span><span>#identity-popup-multiView</span><span></span><br>
+| | |_<span>panelview</span><span>#identity-popup-mainView</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-mainView-panel-header</span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | | |_<span>html:span</span><span>#identity-popup-mainView-panel-header-span</span><span></span><br>
+| | | |_<span>hbox</span><span>#identity-popup-security</span><span>.identity-popup-section</span><br>
+| | | | |_<span>vbox</span><span></span><span>.identity-popup-security-content</span><br>
+| | | | | |_<span>label</span><span></span><span>.plain</span><br>
+| | | | | | |_<span>label</span><span></span><span>.identity-popup-headline</span><br>
+| | | | | |_<span>description</span><span></span><span>.identity-popup-connection-not-secure</span><br>
+| | | | | |_<span>description</span><span></span><span>.identity-popup-connection-secure</span><br>
+| | | | | |_<span>description</span><span></span><span></span><br>
+| | | | | |_<span>description</span><span></span><span></span><br>
+| | | | | |_<span>description</span><span></span><span></span><br>
+| | | | | |_<span>vbox</span><span>#identity-popup-security-descriptions</span><span></span><br>
+| | | | | | |_<span>description</span><span></span><span>.identity-popup-warning-gray</span><br>
+| | | | | | |_<span>description</span><span>#identity-popup-security-decription-custom-root</span><span>.identity-popup-warning-gray</span><br>
+| | | | | | |_<span>description</span><span></span><span>.identity-popup-warning-yellow</span><br>
+| | | | | | |_<span>description</span><span></span><span></span><br>
+| | | | | | |_<span>description</span><span></span><span>.identity-popup-warning-yellow</span><br>
+| | | | | | |_<span>description</span><span></span><span></span><br>
+| | | | |_<span>button</span><span>#identity-popup-security-expander</span><span>.identity-popup-expander</span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>hbox</span><span>#tracking-protection-container</span><span>.identity-popup-section</span><br>
+| | | | |_<span>vbox</span><span>#identity-popup-content-blocking-content</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span></span><br>
+| | | | | | |_<span>label</span><span>#content-blocking-label</span><span>.identity-popup-headline</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#tracking-protection-preferences-button</span><span>.identity-popup-preferences-button.subviewbutton</span><br>
+| | | | | |_<span>description</span><span>#identity-popup-content-blocking-detected</span><span></span><br>
+| | | | | |_<span>description</span><span>#identity-popup-content-blocking-not-detected</span><span></span><br>
+| | | | | |_<span>vbox</span><span>#identity-popup-content-blocking-category-list</span><span></span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#identity-popup-content-blocking-category-tracking-protection</span><span>.identity-popup-content-blocking-category.blocked</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#identity-popup-content-blocking-category-cookies</span><span>.identity-popup-content-blocking-category.blocked</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#identity-popup-content-blocking-category-cryptominers</span><span>.identity-popup-content-blocking-category.blocked</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#identity-popup-content-blocking-category-fingerprinters</span><span>.identity-popup-content-blocking-category.blocked</span><br>
+| | | | | |_<span>button</span><span>#tracking-action-unblock</span><span>.panel-button.tracking-protection-button</span><br>
+| | | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>button</span><span>#tracking-action-unblock-private</span><span>.panel-button.tracking-protection-button</span><br>
+| | | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>button</span><span>#tracking-action-block</span><span>.panel-button.tracking-protection-button</span><br>
+| | | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>label</span><span>#identity-popup-content-blocking-report-breakage</span><span>.text-link.subviewkeynav</span><br>
+| | | |_<span>hbox</span><span></span><span>.identity-popup-section</span><br>
+| | | | |_<span>vbox</span><span>#identity-popup-permissions-content</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span></span><br>
+| | | | | | |_<span>label</span><span>#identity-popup-permissions-headline</span><span>.identity-popup-headline</span><br>
+| | | | | | |_<span>toolbarbutton</span><span>#identity-popup-permission-preferences-button</span><span>.identity-popup-preferences-button.subviewbutton</span><br>
+| | | | | |_<span>vbox</span><span>#identity-popup-permission-list</span><span></span><br>
+| | | | | |_<span>description</span><span>#identity-popup-permission-reload-hint</span><span></span><br>
+| | | | | |_<span>description</span><span>#identity-popup-permission-empty-hint</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-clear-sitedata-footer</span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#identity-popup-clear-sitedata-button</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>panelview</span><span>#identity-popup-securityView</span><span></span><br>
+| | | |_<span>vbox</span><span></span><span>.identity-popup-security-content</span><br>
+| | | | |_<span>label</span><span></span><span>.plain</span><br>
+| | | | | |_<span>label</span><span>#identity-popup-host</span><span>.identity-popup-headline</span><br>
+| | | | |_<span>description</span><span></span><span>.identity-popup-connection-not-secure</span><br>
+| | | | |_<span>description</span><span></span><span>.identity-popup-connection-secure</span><br>
+| | | |_<span>vbox</span><span>#identity-popup-securityView-body</span><span>.panel-view-body-unscrollable</span><br>
+| | | | |_<span>description</span><span>#identity-popup-content-verified-by</span><span></span><br>
+| | | | |_<span>description</span><span>#identity-popup-content-owner</span><span>.header</span><br>
+| | | | |_<span>description</span><span>#identity-popup-content-supplemental</span><span></span><br>
+| | | | |_<span>description</span><span>#identity-popup-content-verifier</span><span></span><br>
+| | | | |_<span>description</span><span>#identity-popup-content-verifier-unknown</span><span>.identity-popup-warning-gray</span><br>
+| | | | | |_<span>label</span><span>#identity-popup-custom-root-learn-more</span><span>.plain.text-link</span><br>
+| | | | |_<span>button</span><span></span><span>.panel-button</span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | | |_<span>label</span><span>#identity-popup-insecure-login-forms-learn-more</span><span>.plain.text-link</span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | |_<span>description</span><span></span><span>.identity-popup-warning-yellow</span><br>
+| | | | |_<span>description</span><span></span><span>.identity-popup-warning-gray</span><br>
+| | | | | |_<span>label</span><span></span><span>.identity-popup-mcb-learn-more.plain</span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | |_<span>description</span><span></span><span>.identity-popup-warning-yellow</span><br>
+| | | | | |_<span>label</span><span></span><span>.identity-popup-mcb-learn-more.plain</span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | |_<span>description</span><span></span><span>.identity-popup-warning-yellow</span><br>
+| | | | | |_<span>label</span><span></span><span>.identity-popup-mcb-learn-more.plain</span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.identity-popup-mcb-learn-more.plain</span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.identity-popup-mcb-learn-more.plain</span><br>
+| | | | |_<span>button</span><span></span><span>.panel-button</span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | | |_<span>button</span><span></span><span>.panel-button</span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>vbox</span><span>#identity-popup-more-info-footer</span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#identity-popup-more-info</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>panelview</span><span>#identity-popup-trackersView</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-trackersView-list</span><span>.identity-popup-content-blocking-list</span><br>
+| | | |_<span>hbox</span><span>#identity-popup-trackersView-strict-info</span><span></span><br>
+| | | | |_<span>image</span><span></span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#identity-popup-trackersView-settings-button</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>panelview</span><span>#identity-popup-cookiesView</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-cookiesView-list</span><span>.identity-popup-content-blocking-list</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#identity-popup-cookiesView-settings-button</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>panelview</span><span>#identity-popup-fingerprintersView</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-fingerprintersView-list</span><span>.identity-popup-content-blocking-list</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#identity-popup-fingerprintersView-settings-button</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>panelview</span><span>#identity-popup-cryptominersView</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-cryptominersView-list</span><span>.identity-popup-content-blocking-list</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#identity-popup-cryptominersView-settings-button</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>panelview</span><span>#identity-popup-breakageReportView</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-breakageReportView-heading</span><span></span><br>
+| | | | |_<span>description</span><span></span><span></span><br>
+| | | | |_<span>label</span><span>#identity-popup-breakageReportView-learn-more</span><span>.text-link</span><br>
+| | | |_<span>vbox</span><span>#identity-popup-breakageReportView-body</span><span>.panel-view-body-unscrollable</span><br>
+| | | | |_<span>vbox</span><span></span><span>.identity-popup-breakageReportView-collection-section</span><br>
+| | | | | |_<span>label</span><span></span><span></span><br>
+| | | | | |_<span>html:input</span><span>#identity-popup-breakageReportView-collection-url</span><span></span><br>
+| | | | |_<span>vbox</span><span></span><span>.identity-popup-breakageReportView-collection-section</span><br>
+| | | | | |_<span>label</span><span></span><span></span><br>
+| | | | | |_<span>html:textarea</span><span>#identity-popup-breakageReportView-collection-comments</span><span></span><br>
+| | | |_<span>vbox</span><span>#identity-popup-breakageReportView-footer</span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#identity-popup-breakageReportView-cancel</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | | |_<span>button</span><span>#identity-popup-breakageReportView-submit</span><span></span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+|_<span>panel</span><span>#protections-popup</span><span></span><br>
+| |_<span>panelmultiview</span><span>#protections-popup-multiView</span><span></span><br>
+| | |_<span>panelview</span><span>#protections-popup-mainView</span><span></span><br>
+| | | |_<span>vbox</span><span>#protections-popup-mainView-panel-header</span><span></span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | | |_<span>html:span</span><span>#protections-popup-mainView-panel-header-span</span><span></span><br>
+| | | |_<span>hbox</span><span>#protections-popup-tp-switch-section</span><span>.identity-popup-section</span><br>
+| | | | |_<span>vbox</span><span>#protections-popup-tp-switch-label-box</span><span></span><br>
+| | | | | |_<span>label</span><span>#protections-popup-tp-switch-on-header</span><span></span><br>
+| | | | | |_<span>label</span><span>#protections-popup-tp-switch-off-header</span><span></span><br>
+| | | | | |_<span>label</span><span>#protections-popup-tp-switch-breakage-link</span><span>.text-link</span><br>
+| | | | |_<span>vbox</span><span>#protections-popup-tp-switch-box</span><span></span><br>
+| | | | | |_<span>toolbarbutton</span><span>#protections-popup-tp-switch</span><span></span><br>
+| | | |_<span>vbox</span><span>#protections-popup-settings-section</span><span>.identity-popup-section</span><br>
+| | | | |_<span>toolbarbutton</span><span>#protections-popup-settings-button</span><span></span><br>
+| | | | | |_<span>image</span><span></span><span>.protection-settings-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.protections-popup-settings-label</span><br>
+|_<span>stringbundleset</span><span>#downloadsStrings</span><span></span><br>
+|_<span>commandset</span><span></span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_doDefault</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_pauseResume</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_cancel</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_unblock</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_chooseUnblock</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_unblockAndOpen</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_confirmBlock</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_open</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_show</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_retry</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_openReferrer</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_copyLocation</span><span></span><br>
+| |_<span>command</span><span>#downloadsCmd_clearList</span><span></span><br>
+|_<span>panel</span><span>#downloadsPanel</span><span></span><br>
+| |_<span>menupopup</span><span>#downloadsContextMenu</span><span>.download-state</span><br>
+| | |_<span>menuitem</span><span></span><span>.downloadPauseMenuItem</span><br>
+| | |_<span>menuitem</span><span></span><span>.downloadResumeMenuItem</span><br>
+| | |_<span>menuitem</span><span></span><span>.downloadUnblockMenuItem</span><br>
+| | |_<span>menuitem</span><span></span><span>.downloadShowMenuItem</span><br>
+| | |_<span>menuseparator</span><span></span><span>.downloadCommandsSeparator</span><br>
+| | |_<span>menuitem</span><span></span><span></span><br>
+| | |_<span>menuitem</span><span></span><span></span><br>
+| | |_<span>menuseparator</span><span></span><span></span><br>
+| | |_<span>menuitem</span><span></span><span>.downloadRemoveFromHistoryMenuItem</span><br>
+| | |_<span>menuitem</span><span></span><span></span><br>
+| | |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>panelmultiview</span><span>#downloadsPanel-multiView</span><span></span><br>
+| | |_<span>panelview</span><span>#downloadsPanel-mainView</span><span></span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-view-body-unscrollable</span><br>
+| | | | |_<span>richlistbox</span><span>#downloadsListBox</span><span></span><br>
+| | | | |_<span>description</span><span>#emptyDownloads</span><span></span><br>
+| | | |_<span>vbox</span><span>#downloadsFooter</span><span></span><br>
+| | | | |_<span>stack</span><span></span><span></span><br>
+| | | | | |_<span>hbox</span><span>#downloadsSummary</span><span></span><br>
+| | | | | | |_<span>image</span><span></span><span>.downloadTypeIcon</span><br>
+| | | | | | |_<span>vbox</span><span></span><span>.downloadContainer</span><br>
+| | | | | |_<span>hbox</span><span>#downloadsFooterButtons</span><span>.panel-footer</span><br>
+| | | | | | |_<span>button</span><span>#downloadsHistory</span><span>.downloadsPanelFooterButton</span><br>
+| | |_<span>panelview</span><span>#downloadsPanel-blockedSubview</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-view-body-unscrollable</span><br>
+| | | | |_<span>description</span><span>#downloadsPanel-blockedSubview-title</span><span></span><br>
+| | | | |_<span>description</span><span>#downloadsPanel-blockedSubview-details1</span><span></span><br>
+| | | | |_<span>description</span><span>#downloadsPanel-blockedSubview-details2</span><span></span><br>
+| | | |_<span>hbox</span><span>#downloadsPanel-blockedSubview-buttons</span><span>.panel-footer</span><br>
+| | | | |_<span>button</span><span>#downloadsPanel-blockedSubview-openButton</span><span>.downloadsPanelFooterButton</span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | | |_<span>button</span><span>#downloadsPanel-blockedSubview-deleteButton</span><span>.downloadsPanelFooterButton</span><br>
+| | | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>panelview</span><span>#PanelUI-downloads</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#appMenu-library-downloads-show-button</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span></span><br>
+| | | | |_<span>toolbaritem</span><span>#panelMenu_downloadsMenu</span><span></span><br>
+| | | |_<span>toolbarbutton</span><span>#PanelUI-downloadsMore</span><span>.panel-subview-footer.subviewbutton</span><br>
+|_<span>panel</span><span>#allTabsMenu</span><span>.cui-widget-panel</span><br>
+| |_<span>panelmultiview</span><span></span><span></span><br>
+| | |_<span>panelview</span><span>#allTabsMenu-allTabsView</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarbutton</span><span>#allTabsMenu-undoCloseTab</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | |_<span>toolbarbutton</span><span>#allTabsMenu-searchTabs</span><span>.subviewbutton.subviewbutton-iconic</span><br>
+| | | | |_<span>toolbarbutton</span><span>#allTabsMenu-containerTabsButton</span><span>.subviewbutton.subviewbutton-nav</span><br>
+| | | | |_<span>toolbarseparator</span><span>#allTabsMenu-hiddenTabsSeparator</span><span></span><br>
+| | | | |_<span>toolbarbutton</span><span>#allTabsMenu-hiddenTabsButton</span><span>.subviewbutton.subviewbutton-nav</span><br>
+| | | | |_<span>toolbarseparator</span><span>#allTabsMenu-tabsSeparator</span><span></span><br>
+| | | | |_<span>vbox</span><span>#allTabsMenu-allTabsViewTabs</span><span>.panel-subview-body</span><br>
+| | |_<span>panelview</span><span>#allTabsMenu-hiddenTabsView</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | |_<span>panelview</span><span>#allTabsMenu-containerTabsView</span><span>.PanelUI-subView</span><br>
+| | | |_<span>vbox</span><span></span><span>.panel-subview-body</span><br>
+| | | | |_<span>toolbarseparator</span><span></span><span>.container-tabs-submenu-separator</span><br>
+| | | | |_<span>toolbarbutton</span><span></span><span>.subviewbutton</span><br>
+|_<span>hbox</span><span>#downloads-animation-container</span><span></span><br>
+| |_<span>vbox</span><span>#downloads-notification-anchor</span><span></span><br>
+| | |_<span>vbox</span><span>#downloads-indicator-notification</span><span></span><br>
+|_<span>tooltip</span><span>#dynamic-shortcut-tooltip</span><span></span><br>
+| |_<span>description</span><span></span><span>.tooltip-label</span><br>
+|_<span>menupopup</span><span>#SyncedTabsSidebarContext</span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsOpenSelected</span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsOpenSelectedInTab</span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsOpenSelectedInWindow</span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsOpenSelectedInPrivateWindow</span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsBookmarkSelected</span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsCopySelected</span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsOpenAllInTabs</span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsManageDevices</span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsRefresh</span><span></span><br>
+|_<span>menupopup</span><span>#SyncedTabsSidebarTabsFilterContext</span><span>.textbox-contextmenu</span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span></span><span></span><br>
+| |_<span>menuseparator</span><span></span><span></span><br>
+| |_<span>menuitem</span><span>#syncedTabsRefreshFilter</span><span></span><br>
+|_<span>panel</span><span>#autoscroller</span><span>.autoscroller</span><br>
+|_<span>panel</span><span>#urlbar-results</span><span></span><br>
+| |_<span>html:div</span><span></span><span>.urlbarView-body-outer</span><br>
+| | |_<span>html:div</span><span></span><span>.urlbarView-body-inner</span><br>
+| | | |_<span>html:div</span><span>#urlbarView-results</span><span></span><br>
+| |_<span>hbox</span><span></span><span>.search-one-offs</span><br>
+| | |_<span>deck</span><span></span><span>.search-panel-one-offs-header.search-panel-header</span><br>
+| | | |_<span>label</span><span></span><span>.searchbar-oneoffheader-search</span><br>
+| | | |_<span>hbox</span><span></span><span>.search-panel-searchforwith.search-panel-current-input</span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | |_<span>label</span><span></span><span>.searchbar-oneoffheader-searchtext.search-panel-input-value</span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | |_<span>hbox</span><span></span><span>.search-panel-searchonengine.search-panel-current-input</span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | | | |_<span>label</span><span></span><span>.searchbar-oneoffheader-engine.search-panel-input-value</span><br>
+| | | | |_<span>label</span><span></span><span></span><br>
+| | |_<span>description</span><span></span><span>.search-panel-one-offs</span><br>
+| | | |_<span>button</span><span>#urlbar-engine-one-off-item-DuckDuckGo</span><span>.searchbar-engine-one-off-item.last-row</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span>#urlbar-engine-one-off-item-Bing</span><span>.searchbar-engine-one-off-item.last-row</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span>#urlbar-engine-one-off-item-Twitter</span><span>.searchbar-engine-one-off-item.last-row</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span>#urlbar-engine-one-off-item-Wikipedia-(en)</span><span>.searchbar-engine-one-off-item.last-engine</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span></span><span>.searchbar-engine-one-off-item.dummy</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | | |_<span>button</span><span>#urlbar-anon-search-settings-compact</span><span>.searchbar-engine-one-off-item.search-setting-button-compact</span><br>
+| | | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>vbox</span><span></span><span>.search-add-engines</span><br>
+| | |_<span>button</span><span>#urlbar-anon-search-settings</span><span>.search-setting-button.search-panel-header</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>menupopup</span><span></span><span>.search-one-offs-context-menu</span><br>
+| | | |_<span>menuitem</span><span></span><span>.search-one-offs-context-open-in-new-tab</span><br>
+| | | | |_<span>label</span><span></span><span>.menu-text</span><br>
+| | | | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | | | |_<span>label</span><span></span><span>.menu-accel</span><br>
+| | | |_<span>menuitem</span><span></span><span>.search-one-offs-context-set-default</span><br>
+| | | | |_<span>label</span><span></span><span>.menu-text</span><br>
+| | | | |_<span>hbox</span><span></span><span>.menu-accel-container</span><br>
+| | | | | |_<span>label</span><span></span><span>.menu-accel</span><br>
+|_<span>panel</span><span>#webextension-remote-preload-panel</span><span></span></code></pre></body></html>

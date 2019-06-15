@@ -1,0 +1,621 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>span{color:#20B2AA}span+span{color:#CD5C5C}span+span+span{color:#808000}br{display:none}</style></head><body style="background:rgb(50,50,50)"><pre><code><span>toolbox</span><span>#navigator-toolbox</span><span></span><br>
+|_<span>vbox</span><span>#titlebar</span><span></span><br>
+| |_<span>toolbar</span><span>#toolbar-menubar</span><span>.browser-toolbar.chromeclass-menubar</span><br>
+| | |_<span>toolbaritem</span><span>#menubar-items</span><span></span><br>
+| | | |_<span>menubar</span><span>#main-menubar</span><span></span><br>
+| | | | |_<span>menu</span><span>#file-menu</span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.menubar-text</span><br>
+| | | | | |_<span>menupopup</span><span>#menu_FilePopup</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_newNavigatorTab</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#menu_newUserContext</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_newNavigator</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_newPrivateWindow</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_openLocation</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_openFile</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_close</span><span>.show-only-for-keyboard</span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_closeWindow</span><span>.show-only-for-keyboard</span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_savePage</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_sendLink</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_printSetup</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_printPreview</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_print</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_importFromAnotherBrowser</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#goOfflineMenuitem</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_FileQuitItem</span><span></span><br>
+| | | | |_<span>menu</span><span>#edit-menu</span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.menubar-text</span><br>
+| | | | | |_<span>menupopup</span><span>#menu_EditPopup</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_undo</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_redo</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_cut</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_copy</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_paste</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_delete</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_selectAll</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_find</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_findAgain</span><span>.show-only-for-keyboard</span><br>
+| | | | | | |_<span>menuseparator</span><span>#textfieldDirection-separator</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#textfieldDirection-swap</span><span></span><br>
+| | | | |_<span>menu</span><span>#view-menu</span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.menubar-text</span><br>
+| | | | | |_<span>menupopup</span><span>#menu_viewPopup</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#viewToolbarsMenu</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#viewSidebarMenuMenu</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menu</span><span>#viewFullZoomMenu</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#pageStyleMenu</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#charsetMenu</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span></span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#fullScreenItem</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_readerModeItem</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_showAllTabs</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span>#documentDirection-separator</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#documentDirection-swap</span><span></span><br>
+| | | | |_<span>menu</span><span>#history-menu</span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.menubar-text</span><br>
+| | | | | |_<span>menupopup</span><span>#goPopup</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_showAllHistory</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#sanitizeItem</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span>#sanitizeSeparator</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#sync-tabs-menuitem</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#historyRestoreLastSession</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#hiddenTabsMenu</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#historyUndoMenu</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#historyUndoWindowMenu</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span>#startHistorySeparator</span><span>.hide-if-empty-places-result</span><br>
+| | | | |_<span>menu</span><span>#bookmarksMenu</span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.menubar-text</span><br>
+| | | | | |_<span>menupopup</span><span>#bookmarksMenuPopup</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#bookmarksShowAll</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span>#organizeBookmarksSeparator</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_bookmarkThisPage</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_bookmarkAllTabs</span><span>.show-only-for-keyboard</span><br>
+| | | | | | |_<span>menuseparator</span><span>#bookmarksToolbarSeparator</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#bookmarksToolbarFolderMenu</span><span>.menu-iconic.bookmark-item</span><br>
+| | | | | | |_<span>menu</span><span>#menu_unsortedBookmarks</span><span>.menu-iconic.bookmark-item</span><br>
+| | | | | | |_<span>menu</span><span>#menu_mobileBookmarks</span><span>.menu-iconic.bookmark-item</span><br>
+| | | | | | |_<span>menuseparator</span><span>#bookmarksMenuItemsSeparator</span><span></span><br>
+| | | | |_<span>menu</span><span>#tools-menu</span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.menubar-text</span><br>
+| | | | | |_<span>menupopup</span><span>#menu_ToolsPopup</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_openDownloads</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_openAddons</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#sync-setup</span><span>.sync-ui-item</span><br>
+| | | | | | |_<span>menuitem</span><span>#sync-unverifieditem</span><span>.sync-ui-item</span><br>
+| | | | | | |_<span>menuitem</span><span>#sync-syncnowitem</span><span>.sync-ui-item</span><br>
+| | | | | | |_<span>menuitem</span><span>#sync-reauthitem</span><span>.sync-ui-item</span><br>
+| | | | | | |_<span>menuseparator</span><span>#devToolsSeparator</span><span></span><br>
+| | | | | | |_<span>menu</span><span>#webDeveloperMenu</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_pageInfo</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span>#prefSep</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_preferences</span><span></span><br>
+| | | | |_<span>menu</span><span>#helpMenu</span><span></span><br>
+| | | | | |_<span>label</span><span></span><span>.menubar-text</span><br>
+| | | | | |_<span>menupopup</span><span>#menu_HelpPopup</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_openHelp</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_openTour</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_keyboardShortcuts</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#troubleShooting</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#feedbackPage</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#helpSafeMode</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_HelpPopup_reportPhishingtoolmenu</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#menu_HelpPopup_reportPhishingErrortoolmenu</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span>#helpPolicySeparator</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#helpPolicySupport</span><span></span><br>
+| | | | | | |_<span>menuseparator</span><span>#aboutSeparator</span><span></span><br>
+| | | | | | |_<span>menuitem</span><span>#aboutName</span><span></span><br>
+| | |_<span>spacer</span><span></span><span></span><br>
+| | |_<span>hbox</span><span></span><span>.titlebar-buttonbox-container</span><br>
+| | | |_<span>hbox</span><span></span><span>.titlebar-buttonbox.titlebar-color</span><br>
+| | | | |_<span>toolbarbutton</span><span></span><span>.titlebar-button.titlebar-min</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span></span><span>.titlebar-button.titlebar-max</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span></span><span>.titlebar-button.titlebar-close</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| |_<span>toolbar</span><span>#TabsToolbar</span><span>.browser-toolbar.titlebar-color</span><br>
+| | |_<span>hbox</span><span></span><span>.titlebar-spacer</span><br>
+| | |_<span>hbox</span><span></span><span>.toolbar-items</span><br>
+| | | |_<span>hbox</span><span>#TabsToolbar-customization-target</span><span>.customization-target</span><br>
+| | | | |_<span>tabs</span><span>#tabbrowser-tabs</span><span></span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | | |_<span>tab</span><span></span><span>.tabbrowser-tab</span><br>
+| | | | | | |_<span>stack</span><span></span><span>.tab-stack</span><br>
+| | | | |_<span>toolbarbutton</span><span>#alltabs-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | | | |_<span>stack</span><span></span><span>.toolbarbutton-badge-stack</span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-badge</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>hbox</span><span></span><span>.titlebar-spacer</span><br>
+| | |_<span>button</span><span></span><span>.accessibility-indicator</span><br>
+| | | |_<span>hbox</span><span></span><span>.box-inherit.button-box</span><br>
+| | | | |_<span>image</span><span></span><span>.button-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.button-text</span><br>
+| | |_<span>hbox</span><span></span><span>.private-browsing-indicator</span><br>
+| | |_<span>hbox</span><span></span><span>.titlebar-buttonbox-container</span><br>
+| | | |_<span>hbox</span><span></span><span>.titlebar-buttonbox.titlebar-color</span><br>
+| | | | |_<span>toolbarbutton</span><span></span><span>.titlebar-button.titlebar-min</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span></span><span>.titlebar-button.titlebar-max</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | | |_<span>toolbarbutton</span><span></span><span>.titlebar-button.titlebar-close</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+|_<span>toolbar</span><span>#nav-bar</span><span>.browser-toolbar</span><br>
+| |_<span>toolbartabstop</span><span></span><span></span><br>
+| |_<span>hbox</span><span>#nav-bar-customization-target</span><span>.customization-target</span><br>
+| | |_<span>toolbarbutton</span><span>#sidebar-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>observes</span><span></span><span></span><br>
+| | | |_<span>observes</span><span></span><span></span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbaritem</span><span>#urlbar-container</span><span>.chromeclass-location</span><br>
+| | | |_<span>toolbartabstop</span><span></span><span></span><br>
+| | | |_<span>textbox</span><span>#urlbar</span><span></span><br>
+| | | | |_<span>box</span><span>#identity-box</span><span>.verifiedIdentity</span><br>
+| | | | | |_<span>image</span><span>#identity-icon</span><span></span><br>
+| | | | | |_<span>image</span><span>#sharing-icon</span><span></span><br>
+| | | | | |_<span>box</span><span>#tracking-protection-icon-box</span><span></span><br>
+| | | | | | |_<span>image</span><span>#tracking-protection-icon</span><span></span><br>
+| | | | | | |_<span>box</span><span>#tracking-protection-icon-animatable-box</span><span></span><br>
+| | | | | |_<span>box</span><span>#blocked-permissions-container</span><span></span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.geo-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.desktop-notification-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.camera-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.microphone-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.screen-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.persistent-storage-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.popup-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.autoplay-media-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.canvas-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.midi-icon</span><br>
+| | | | | | |_<span>image</span><span></span><span>.blocked-permission-icon.install-icon</span><br>
+| | | | | |_<span>box</span><span>#notification-popup-box</span><span></span><br>
+| | | | | | |_<span>image</span><span>#default-notification-icon</span><span>.notification-anchor-icon</span><br>
+| | | | | | |_<span>image</span><span>#geo-notification-icon</span><span>.notification-anchor-icon.geo-icon</span><br>
+| | | | | | |_<span>image</span><span>#autoplay-media-notification-icon</span><span>.notification-anchor-icon.autoplay-media-icon</span><br>
+| | | | | | |_<span>image</span><span>#addons-notification-icon</span><span>.notification-anchor-icon.install-icon</span><br>
+| | | | | | |_<span>image</span><span>#canvas-notification-icon</span><span>.notification-anchor-icon</span><br>
+| | | | | | |_<span>image</span><span>#indexedDB-notification-icon</span><span>.notification-anchor-icon.indexedDB-icon</span><br>
+| | | | | | |_<span>image</span><span>#password-notification-icon</span><span>.notification-anchor-icon.login-icon</span><br>
+| | | | | | |_<span>stack</span><span>#plugins-notification-icon</span><span>.notification-anchor-icon</span><br>
+| | | | | | |_<span>image</span><span>#web-notifications-notification-icon</span><span>.notification-anchor-icon.desktop-notification-icon</span><br>
+| | | | | | |_<span>image</span><span>#webRTC-shareDevices-notification-icon</span><span>.notification-anchor-icon.camera-icon</span><br>
+| | | | | | |_<span>image</span><span>#webRTC-shareMicrophone-notification-icon</span><span>.notification-anchor-icon.microphone-icon</span><br>
+| | | | | | |_<span>image</span><span>#webRTC-shareScreen-notification-icon</span><span>.notification-anchor-icon.screen-icon</span><br>
+| | | | | | |_<span>image</span><span>#servicesInstall-notification-icon</span><span>.notification-anchor-icon.service-icon</span><br>
+| | | | | | |_<span>image</span><span>#translate-notification-icon</span><span>.notification-anchor-icon.translation-icon</span><br>
+| | | | | | |_<span>image</span><span>#translated-notification-icon</span><span>.notification-anchor-icon.translation-icon</span><br>
+| | | | | | |_<span>image</span><span>#eme-notification-icon</span><span>.notification-anchor-icon.drm-icon</span><br>
+| | | | | | |_<span>image</span><span>#persistent-storage-notification-icon</span><span>.notification-anchor-icon.persistent-storage-icon</span><br>
+| | | | | | |_<span>image</span><span>#midi-notification-icon</span><span>.notification-anchor-icon.midi-icon</span><br>
+| | | | | | |_<span>image</span><span>#webauthn-notification-icon</span><span>.notification-anchor-icon</span><br>
+| | | | | | |_<span>image</span><span>#storage-access-notification-icon</span><span>.notification-anchor-icon.storage-access-icon</span><br>
+| | | | | |_<span>image</span><span>#connection-icon</span><span></span><br>
+| | | | | |_<span>image</span><span>#extension-icon</span><span></span><br>
+| | | | | |_<span>image</span><span>#remote-control-icon</span><span></span><br>
+| | | | | |_<span>hbox</span><span>#identity-icon-labels</span><span></span><br>
+| | | | | | |_<span>label</span><span>#identity-icon-label</span><span>.plain</span><br>
+| | | | | | |_<span>label</span><span>#identity-icon-country-label</span><span>.plain</span><br>
+| | | | |_<span>box</span><span>#urlbar-display-box</span><span></span><br>
+| | | | | |_<span>label</span><span>#switchtab</span><span>.urlbar-display.urlbar-display-switchtab</span><br>
+| | | | | |_<span>label</span><span>#extension</span><span>.urlbar-display.urlbar-display-extension</span><br>
+| | | | |_<span>hbox</span><span>#page-action-buttons</span><span></span><br>
+| | | | | |_<span>toolbartabstop</span><span></span><span></span><br>
+| | | | | |_<span>hbox</span><span>#contextual-feature-recommendation</span><span></span><br>
+| | | | | | |_<span>hbox</span><span>#cfr-label-container</span><span></span><br>
+| | | | | | |_<span>image</span><span>#cfr-button</span><span>.urlbar-icon.urlbar-page-action</span><br>
+| | | | | |_<span>hbox</span><span>#userContext-icons</span><span></span><br>
+| | | | | | |_<span>label</span><span>#userContext-label</span><span></span><br>
+| | | | | | |_<span>image</span><span>#userContext-indicator</span><span></span><br>
+| | | | | |_<span>image</span><span>#reader-mode-button</span><span>.urlbar-icon.urlbar-page-action</span><br>
+| | | | | |_<span>toolbarbutton</span><span>#urlbar-zoom-button</span><span></span><br>
+| | | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>box</span><span>#pageActionSeparator</span><span>.urlbar-page-action</span><br>
+| | | | | |_<span>image</span><span>#pageActionButton</span><span>.urlbar-icon.urlbar-page-action</span><br>
+| | | | | |_<span>hbox</span><span>#pocket-button-box</span><span>.urlbar-icon-wrapper.urlbar-page-action</span><br>
+| | | | | | |_<span>image</span><span>#pocket-button</span><span>.urlbar-icon</span><br>
+| | | | | | |_<span>hbox</span><span>#pocket-button-animatable-box</span><span></span><br>
+| | | | | |_<span>hbox</span><span>#star-button-box</span><span>.urlbar-icon-wrapper.urlbar-page-action</span><br>
+| | | | | | |_<span>image</span><span>#star-button</span><span>.urlbar-icon</span><br>
+| | | | | | |_<span>hbox</span><span>#star-button-animatable-box</span><span></span><br>
+| | | |_<span>toolbartabstop</span><span></span><span></span><br>
+| | |_<span>toolbaritem</span><span>#stop-reload-button</span><span>.chromeclass-toolbar-additional</span><br>
+| | | |_<span>toolbarbutton</span><span>#reload-button</span><span>.toolbarbutton-1</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | |_<span>box</span><span></span><span>.toolbarbutton-animatable-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-animatable-image</span><br>
+| | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | | |_<span>toolbarbutton</span><span>#stop-button</span><span>.toolbarbutton-1</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | |_<span>box</span><span></span><span>.toolbarbutton-animatable-box</span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-animatable-image</span><br>
+| | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#back-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>menupopup</span><span></span><span></span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#forward-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>menupopup</span><span></span><span></span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarspring</span><span>#customizableui-special-spring2</span><span>.chromeclass-toolbar-additional</span><br>
+| | |_<span>toolbarbutton</span><span>#new-tab-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>menupopup</span><span>#newtab-popup</span><span>.new-tab-popup</span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#developer-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#umatrix_raymondhill_net-browser-action</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>stack</span><span></span><span>.toolbarbutton-badge-stack</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-badge</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#apt_example_com-browser-action</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>stack</span><span></span><span>.toolbarbutton-badge-stack</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-badge</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#downloads-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>stack</span><span></span><span>.toolbarbutton-badge-stack</span><br>
+| | | | |_<span>stack</span><span>#downloads-indicator-anchor</span><span></span><br>
+| | | | | |_<span>box</span><span>#downloads-indicator-icon</span><span></span><br>
+| | | | | |_<span>stack</span><span>#downloads-indicator-progress-outer</span><span></span><br>
+| | | | | | |_<span>box</span><span>#downloads-indicator-progress-inner</span><span></span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-badge</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#qrier_example_com-browser-action</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | | |_<span>stack</span><span></span><span>.toolbarbutton-badge-stack</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-badge</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| |_<span>toolbarbutton</span><span>#nav-bar-overflow-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | |_<span>box</span><span></span><span>.toolbarbutton-animatable-box</span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-animatable-image</span><br>
+| | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| |_<span>toolbaritem</span><span>#PanelUI-button</span><span></span><br>
+| | |_<span>toolbarbutton</span><span>#PanelUI-menu-button</span><span>.toolbarbutton-1</span><br>
+| | | |_<span>stack</span><span></span><span>.toolbarbutton-badge-stack</span><br>
+| | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | |_<span>label</span><span></span><span>.toolbarbutton-badge</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| |_<span>hbox</span><span>#window-controls</span><span></span><br>
+| | |_<span>toolbarbutton</span><span>#minimize-button</span><span></span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#restore-button</span><span></span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#close-button</span><span></span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| |_<span>box</span><span>#library-animatable-box</span><span>.toolbarbutton-animatable-box</span><br>
+| | |_<span>image</span><span></span><span>.toolbarbutton-animatable-image</span><br>
+|_<span>toolbar</span><span>#PersonalToolbar</span><span>.browser-toolbar.chromeclass-directories</span><br>
+| |_<span>toolbartabstop</span><span></span><span></span><br>
+| |_<span>toolbaritem</span><span>#personal-bookmarks</span><span></span><br>
+| | |_<span>toolbarbutton</span><span>#bookmarks-toolbar-placeholder</span><span>.bookmark-item</span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>toolbarbutton</span><span>#bookmarks-toolbar-button</span><span>.toolbarbutton-1</span><br>
+| | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| | |_<span>hbox</span><span>#PlacesToolbar</span><span></span><br>
+| | | |_<span>hbox</span><span></span><span></span><br>
+| | | | |_<span>hbox</span><span>#PlacesToolbarDropIndicatorHolder</span><span></span><br>
+| | | | | |_<span>image</span><span>#PlacesToolbarDropIndicator</span><span></span><br>
+| | | | |_<span>scrollbox</span><span>#PlacesToolbarItems</span><span></span><br>
+| | | | |_<span>toolbarbutton</span><span>#PlacesChevron</span><span>.toolbarbutton-1</span><br>
+| | | | | |_<span>menupopup</span><span>#PlacesChevronPopup</span><span></span><br>
+| | | | | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | | | | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | | | | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | | | | |_<span>image</span><span></span><span>.dropmarker-icon</span><br>
+| |_<span>toolbarbutton</span><span>#preferences-button</span><span>.toolbarbutton-1.chromeclass-toolbar-additional</span><br>
+| | |_<span>image</span><span></span><span>.toolbarbutton-icon</span><br>
+| | |_<span>label</span><span></span><span>.toolbarbutton-text</span><br>
+| | |_<span>label</span><span></span><span>.toolbarbutton-multiline-text</span><br>
+| | |_<span>dropmarker</span><span></span><span>.toolbarbutton-menu-dropmarker</span><br>
+| | | |_<span>image</span><span></span><span>.dropmarker-icon</span></code></pre></body></html>
