@@ -38,10 +38,10 @@ Here are few examples of the output:
 
 ## #mainPopupSet
 
-[mainPopupSet.json](examples/mainPopupSet_Fx69.json)
-[mainPopupSet.html](examples/mainPopupSet_Fx69.html)
+![mainPopupSet.json](examples/mainPopupSet_Fx69.json)
+![mainPopupSet.html](examples/mainPopupSet_Fx69.html)
 
 ## #navigator-toolbox
 
-[navigator-toolbox.json](examples/navigator-toolbox_Fx69.json)
-[navigator-toolbox.html](examples/navigator-toolbox_Fx69.html)
+![navigator-toolbox.json](examples/navigator-toolbox_Fx69.json)
+![navigator-toolbox.html](examples/navigator-toolbox_Fx69.html)
