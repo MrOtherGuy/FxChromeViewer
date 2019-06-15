@@ -31,3 +31,17 @@ The function takes three parameters as an object:
 This code will be run in the browser environment and could basically do absolutely anything including destroying your profile. Just so you know.
 
 To be safe you should probably not run this in your normal profile
+
+# Examples
+
+Here are few examples of the output:
+
+## #mainPopupSet
+
+[mainPopupSet.json](examples/mainPopupSet_Fx69.json)
+[mainPopupSet.html](examples/mainPopupSet_Fx69.html)
+
+## #navigator-toolbox
+
+[navigator-toolbox.json](examples/navigator-toolbox_Fx69.json)
+[navigator-toolbox.html](examples/navigator-toolbox_Fx69.html)
