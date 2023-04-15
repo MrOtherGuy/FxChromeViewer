@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <title>FxChromeViewer</title>
+  <meta name="viewport" content="width=device-width"/>
+  <meta charset="UTF-8">
+  <title>Main window tree</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link as="style" type="text/css" rel="preload prefetch stylesheet" href="resources/main.css">
+  <script type="module" src="https://mrotherguy.github.io/js-modules/tree-view/tree-view.js"></script>
+  <script type="module" src="resources/main.js"></script>
 </head>
 <body>
-<h1>Examples</h1>
-<p>Examples of the script output</p>
-<h2>#mainPopupSet</h2>
-<a href="examples/mainPopupSet_Fx69.json" target="blank">mainPopupSet_Fx69.json</a>
-<br>
-<a href="examples/mainPopupSet_Fx69.htm" target="blank">mainPopupSet_Fx69.htm</a>
-<h2>#navigator-toolbox</h2>
-<a href="examples/navigator-toolbox_Fx69.json" target="blank">navigator-toolbox_Fx69.json</a>
-<br>
-<a href="examples/navigator-toolbox_Fx69.htm" target="blank">navigator-toolbox_Fx69.htm</a>
+<template id="tree-template">
+<link as="style" type="text/css" rel="preload prefetch stylesheet" href="resources/custom-tree.css">
+<link as="style" type="text/css" rel="preload prefetch stylesheet" href="https://mrotherguy.github.io/js-modules/tree-view/tree-view.css">
+</template>
+<div>
+<h2>Firefox main-window tree</h2>
+<p><label for="attributecheck"><input type="checkbox" id="attributecheck" name="attributecheck"></input>Show attributes</label></p>
+<tree-view class="showInfo" open data-drop></tree-view>
+</div>
+<footer>
+<p>Hint: try to drag and drop .json files to the view</p>
+</footer> 
+<script>
+
+</script>
 </body>
 </html>

@@ -1,0 +1,15 @@
+.id-selector{ color: orangered }
+.class-selector{ color: dodgerblue }
+span:first-child{ color: blueviolet }
+span.shadowroot{ color: olive }
+
+@media screen and (prefers-color-scheme: dark){
+  .id-selector{ color: coral }
+  .class-selector{ color: dodgerblue }
+  span:first-child{ color: orchid }
+  span.shadowroot{ color: cyan }
+}
+
+.attributes-hidden span:last-child:not(.shadowroot){
+  display: none;
+}

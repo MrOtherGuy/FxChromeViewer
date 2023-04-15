@@ -1,0 +1,23 @@
+tree-view::part(tree){
+  padding: 10px;
+  border: 1px solid;
+  font-family: monospace;
+  font-size: 1.15em;
+}
+tree-view{
+  --tree-row-padding: 4px;
+  --tree-row-indent: 1em;
+  --tree-hover-background: #cef;
+  --tree-connector-position: 13px;
+  --deemphasized-color: grey;
+}
+@media screen and (prefers-color-scheme: dark){
+  :root{
+    background-color: #11202c;
+    color: #b8babb;
+  }
+  tree-view{
+    --deemphasized-color: #51706c;
+    --tree-hover-background: #21404c;
+  }
+}
