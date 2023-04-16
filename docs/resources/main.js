@@ -1,3 +1,5 @@
+import { TreeView } from "https://mrotherguy.github.io/js-modules/tree-view/tree-view.js";
+
 function getAttrs(e){
   let s = [e.localName];
   if(e.id){
@@ -40,7 +42,7 @@ function constructSpan(content){
 function init(){
   let view = document.getElementsByTagName("tree-view")[0];
   view.setLayerTransform((layer,name) => {
-    if(/^template|^style|^script|^head|^keyset/.test(name)){
+    if(/^template|^style|^script|^head|^keyset|^commandset/.test(name)){
       layer.classList.add("deemphasized")
     }
     let fragment = new DocumentFragment();
